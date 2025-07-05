@@ -1,0 +1,46 @@
+.timeline {
+  display: flex;
+  margin: 1rem;
+  overflow: auto;
+}
+
+.timelineContainer {
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+
+.timelineItem {
+  all: unset;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.timelineItem:hover {
+  scale: 1.2;
+}
+
+.timelineItem::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 6px;
+  background-color: red;
+  left: 50%;
+  bottom: 140%;
+}
+
+.timelineItem::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 6px;
+  background-color: red;
+  left: 50%;
+  top: 140%;
+}
