@@ -1,5 +1,13 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Barlow } from 'next/font/google'
+
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: ['100', '400', '500', '600', '700', '900'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: "Mustafa Kemal Atatürk'ün Hayatı",
@@ -12,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body>{children}</body>
+    <html lang='tr'>
+      <body className={barlow.className}>{children}</body>
     </html>
   )
 }

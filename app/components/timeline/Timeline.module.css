@@ -5,7 +5,6 @@
   bottom: 3rem;
   left: 0;
   width: 100%;
-  backdrop-filter: blur(10px);
   z-index: 1000;
 }
 
@@ -15,11 +14,13 @@
   margin-inline: auto;
   display: flex;
   gap: 1rem;
-  border: 1px solid #ecebeb;
   padding: 1rem;
   border-radius: 3rem;
   overflow-x: auto;
   overflow-y: hidden;
+  scrollbar-width: none;
+  backdrop-filter: blur(1000px);
+  color: contrast(3);
 }
 
 .timelineItem {
@@ -38,8 +39,8 @@
   content: '';
   position: absolute;
   width: 1px;
-  height: 6px;
-  background-color: red;
+  height: 10px;
+  background: #000;
   left: 50%;
   bottom: 140%;
 }
@@ -48,8 +49,8 @@
   content: '';
   position: absolute;
   width: 1px;
-  height: 6px;
-  background-color: red;
+  height: 10px;
+  background: #000;
   left: 50%;
   top: 140%;
 }
