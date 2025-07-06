@@ -30,8 +30,8 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 2px;
+  height: 2px;
 }
 
 /* Track */
@@ -41,7 +41,7 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #dad9d9;
 }
 
 /* Handle on hover */

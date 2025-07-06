@@ -1,28 +1,37 @@
 .timeline {
   display: flex;
-  margin: 1rem;
-  overflow: auto;
+  transition: all 0.5s ease-in-out;
+  position: fixed;
+  bottom: 3rem;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
 }
 
 .timelineContainer {
+  max-width: 80dvw;
+  position: relative;
   margin-inline: auto;
   display: flex;
   gap: 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #ecebeb;
   padding: 1rem;
   border-radius: 3rem;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .timelineItem {
   all: unset;
   position: relative;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
   font-size: 0.9rem;
 }
 
 .timelineItem:hover {
-  scale: 1.2;
+  scale: 1.5;
 }
 
 .timelineItem::before {
@@ -43,4 +52,16 @@
   background-color: red;
   left: 50%;
   top: 140%;
+}
+
+.active {
+  scale: 2;
+  margin-inline: 2rem;
+  color: #000;
+  font-weight: 900;
+}
+
+.active::before,
+.active::after {
+  display: none;
 }
