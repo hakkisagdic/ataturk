@@ -1,153 +1,170 @@
 [
   {
     "id": 1,
-    "title": "Mustafa Kemal'in doğumu.",
+    "title": "Ulu Önder Mustafa Kemal ATATÜRK'ün doğumu.",
     "date": "1881-05-19T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/selanik.jpg"]
+    "backgroundImageUrl": "https://ata.msb.gov.tr/Content/Upload/Images/ataturkun_ailesi/00image24720202.jpg",
+    "images": []
   },
   {
     "id": 2,
-    "title": "Mustafa Kemal'in ilk öğrenimine başlaması. (Kısa bir süre mahalle mektebine devam etmiş, daha sonra çağdaş eğitim yapan Şemsi Efendi Okuluna geçerek ilkokulu burada bitirmiştir.)",
-    "date": "1886-01-01T00:00:00Z",
+    "title": "Mustafa Kemal ATATÜRK'ün ilk öğrenimine başlaması. (Kısa bir süre mahalle mektebine devam etmiş, daha sonra çağdaş eğitim yapan Şemsi Efendi Okuluna geçerek ilkokulu burada bitirmiştir.)",
+    "date": "1886-01T00:00:00Z",
     "location": {
-      "lat": 40.6401,
-      "lon": 22.9444
+      "lat": 39.925533,
+      "lon": 32.866287
     },
-    "images": ["https://example.com/images/ilkokul.jpg"]
+    "backgroundImageUrl": "https://ata.msb.gov.tr/Content/Upload/Images/ogrenim_hayati/1.png",
+    "images": []
   },
   {
     "id": 3,
-    "title": "Mustafa Kemal'in babası Ali Rıza Efendi'nin ölümü.",
+    "title": "Mustafa Kemal ATATÜRK'ün babası Ali Rıza Efendi'nin ölümü.",
     "date": "1886-05-23T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/ali_riza.jpg"]
+    "backgroundImageUrl": "",
+    "images": []
   },
   {
     "id": 4,
-    "title": "Mustafa Kemal'in Selanik Askerî Rüştiyesine girmesi. (Şemsi Efendi İlkokulundan sonra bir süre Selanik Mülkiye Rüştiyesine devam etti ise de Kaymak Hafız adlı matematik öğretmeninin kendisine haksız yere sopa ile vurması üzerine bu okuldan ayrılmış, kendi istek ve kararı ile Askerî Rüştiyeye başvurarak öğrenimine burada devam etmiştir.)    ",
+    "title": "Mustafa Kemal ATATÜRK'ün Selanik Askerî Rüştiyesine girmesi. (Şemsi Efendi İlkokulundan sonra bir süre Selanik Mülkiye Rüştiyesine devam etti ise de Kaymak Hafız adlı matematik öğretmeninin kendisine haksız yere sopa ile vurması üzerine bu okuldan ayrılmış, kendi istek ve kararı ile Askerî Rüştiyeye başvurarak öğrenimine burada devam etmiştir.)    ",
     "date": "1894-01-01T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/askeri_rastiye.jpg"]
+    "images": []
   },
   {
     "id": 5,
-    "title": "Mustafa Kemal'in Manastır Askerî İdadisine girmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Manastır Askerî İdadisine girmesi.",
     "date": "1896-01-01T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/manastir_idadi.jpg"]
+    "backgroundImageUrl": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/6.jpg",
+    "images": [
+      {
+        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/1.jpg",
+        "alt": "Lorem ipsum"
+      },
+      {
+        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/2.gif",
+        "alt": "test 2"
+      },
+      {
+        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/3.jpg",
+        "alt": "3123123"
+      }
+    ]
   },
   {
     "id": 6,
-    "title": "Mustafa Kemal'in İstanbul'da Harp Okuluna girmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün İstanbul'da Harp Okuluna girmesi.",
     "date": "1899-03-13T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/harp_okulu.jpg"]
+    "images": []
   },
   {
     "id": 7,
-    "title": "Mustafa Kemal'in, teğmen rütbesiyle Harp Akademisine girmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün, teğmen rütbesiyle Harp Akademisine girmesi.",
     "date": "1902-02-10T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/harp_akademisi.jpg"]
+    "images": []
   },
   {
     "id": 8,
-    "title": "Mustafa Kemal'in Harp Akademisinin ikinci sınıfına geçmesi ve üsteğmen olması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Harp Akademisinin ikinci sınıfına geçmesi ve üsteğmen olması.",
     "date": "1903-01-01T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/ustegmen.jpg"]
+    "images": []
   },
   {
     "id": 9,
-    "title": "Mustafa Kemal'in kurmay yüzbaşı rütbesiyle Harp Akademisinden mezun olması ve 5'inci Ordu emrine atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün kurmay yüzbaşı rütbesiyle Harp Akademisinden mezun olması ve 5'inci Ordu emrine atanması.",
     "date": "1905-01-01T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/harp_akademisi_mezuniyet.jpg"]
+    "images": []
   },
   {
     "id": 10,
-    "title": "Mustafa Kemal'in Şam'da bazı arkadaşları ile gizli olarak Vatan ve Hürriyet Cemiyetini kurması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Şam'da bazı arkadaşları ile gizli olarak Vatan ve Hürriyet Cemiyetini kurması.",
     "date": "1905-01-01T00:00:00Z",
     "location": {
       "lat": 33.5131,
       "lon": 36.2919
     },
-    "images": ["https://example.com/images/vatan_hurriyet.jpg"]
+    "images": []
   },
   {
     "id": 11,
-    "title": "Mustafa Kemal'e, Suriye bölgesindeki üstün hizmetlerinden ötürü Beşinci Rütbeden Mecidî nişanı verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, Suriye bölgesindeki üstün hizmetlerinden ötürü Beşinci Rütbeden Mecidî nişanı verilmesi.",
     "date": "1906-12-25T00:00:00Z",
     "location": {
       "lat": 33.5131,
       "lon": 36.2919
     },
-    "images": ["https://example.com/images/mecidi_nisani.jpg"]
+    "images": []
   },
   {
     "id": 12,
-    "title": "Mustafa Kemal'in kolağası (kıdemli yüzbaşı) olması.",
+    "title": "Mustafa Kemal ATATÜRK'ün kolağası (kıdemli yüzbaşı) olması.",
     "date": "1907-06-20T00:00:00Z",
     "location": {
       "lat": 33.5131,
       "lon": 36.2919
     },
-    "images": ["https://example.com/images/kolagasi.jpg"]
+    "images": []
   },
   {
     "id": 13,
-    "title": "Mustafa Kemal'in Şam'dan, merkezi Manastır'da bulunan 3'üncü Ordu Karargâhına atanması. (Bu karargâhın Selanik'teki şubesinde görev yapmıştır.)",
+    "title": "Mustafa Kemal ATATÜRK'ün Şam'dan, merkezi Manastır'da bulunan 3'üncü Ordu Karargâhına atanması. (Bu karargâhın Selanik'teki şubesinde görev yapmıştır.)",
     "date": "1907-10-13T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/3uncu_ordu.jpg"]
+    "images": []
   },
   {
     "id": 14,
-    "title": "Mustafa Kemal'in General Litzmann'dan çevirdiği 'Takımın Muharebe Talimi' adlı -askerî eğitimle ilgili- kitabın Selanik'te yayımlanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün General Litzmann'dan çevirdiği 'Takımın Muharebe Talimi' adlı -askerî eğitimle ilgili- kitabın Selanik'te yayımlanması.",
     "date": "1908-01-01T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/takim_muharebe.jpg"]
+    "images": []
   },
   {
     "id": 15,
-    "title": "Mustafa Kemal'e, 3'üncü Ordu Karargâhındaki görevinin yanı sıra Şark Demiryolu Müfettişliği görevinin de verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, 3'üncü Ordu Karargâhındaki görevinin yanı sıra Şark Demiryolu Müfettişliği görevinin de verilmesi.",
     "date": "1908-06-22T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/demiryolu.jpg"]
+    "images": []
   },
   {
     "id": 16,
@@ -157,7 +174,7 @@
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/mesrutiyet.jpg"]
+    "images": []
   },
   {
     "id": 17,
@@ -167,17 +184,17 @@
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/redif_tumeni.jpg"]
+    "images": []
   },
   {
     "id": 18,
-    "title": "Mustafa Kemal'in 3'üncü Ordu Selanik 2'nci Redif Tümeni Kurmay Başkanlığına getirilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün 3'üncü Ordu Selanik 2'nci Redif Tümeni Kurmay Başkanlığına getirilmesi.",
     "date": "1909-01-13T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/31mart.jpg"]
+    "images": []
   },
   {
     "id": 19,
@@ -187,37 +204,37 @@
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/hareket_ordusu.jpg"]
+    "images": []
   },
   {
     "id": 20,
-    "title": "Mustafa Kemal'in Hareket Ordusu ile beraber -bu ordunun Kurmay Başkanı olarak- Selanik'ten İstanbul'a hareketi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Hareket Ordusu ile beraber -bu ordunun Kurmay Başkanı olarak- Selanik'ten İstanbul'a hareketi.",
     "date": "1909-04-15T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/selanik_donus.jpg"]
+    "images": []
   },
   {
     "id": 21,
-    "title": "Mustafa Kemal'in İstanbul'dan Selanik'e dönmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün İstanbul'dan Selanik'e dönmesi.",
     "date": "1909-05-01T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/cumali_ordugah.jpg"]
+    "images": []
   },
   {
     "id": 22,
-    "title": "Mustafa Kemal'in Cumalı Ordugâhındaki askerî manevraya katılması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Cumalı Ordugâhındaki askerî manevraya katılması.",
     "date": "1909-08-30T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/cumali_kitap.jpg"]
+    "images": []
   },
   {
     "id": 23,
@@ -227,87 +244,83 @@
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/talimgah.jpg"]
+    "images": []
   },
   {
     "id": 24,
-    "title": "Mustafa Kemal'in Selanik 2'nci Redif tümeni Kurmay Başkanlığından tekrar 3'üncü Ordu Karargâhına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Selanik 2'nci Redif tümeni Kurmay Başkanlığından tekrar 3'üncü Ordu Karargâhına atanması.",
     "date": "1909-10-05T00:00:00Z",
     "location": {
       "lat": 48.8566,
       "lon": 2.3522
     },
-    "images": ["https://example.com/images/fransa.jpg"]
+    "images": []
   },
   {
     "id": 25,
-    "title": "Mustafa Kemal'in 'Cumalı Ordugâhı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 30 Ağustos - 8 Eylül 1909 arasında Cumalı Ordugâhında yapılan askerî manevra esnasında tutulan not ve krokilerden oluşmuştur.)",
+    "title": "Mustafa Kemal ATATÜRK'ün 'Cumalı Ordugâhı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 30 Ağustos - 8 Eylül 1909 arasında Cumalı Ordugâhında yapılan askerî manevra esnasında tutulan not ve krokilerden oluşmuştur.)",
     "date": "1909-10-06T00:00:00Z",
     "location": {
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": ["https://example.com/images/38piyade.jpg"]
+    "images": []
   },
   {
     "id": 26,
-    "title": "Mustafa Kemal'in Üçüncü Ordu Subay Talimgâhı Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Üçüncü Ordu Subay Talimgâhı Komutanlığına atanması.",
     "date": "1910-09-06T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": ["https://example.com/images/trablusgarp.jpg"]
+    "images": []
   },
   {
     "id": 27,
-    "title": "Mustafa Kemal'in orduyu temsilen, Picardie Manevralarını izlemek amacıyla Fransa'ya gönderilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün orduyu temsilen, Picardie Manevralarını izlemek amacıyla Fransa'ya gönderilmesi.",
     "date": "1910-09T00:00:00Z",
     "location": {
       "lat": 32.0762,
       "lon": 23.9614
     },
-    "images": ["https://example.com/images/binbasi.jpg"]
+    "images": []
   },
   {
     "id": 28,
-    "title": "Mustafa Kemal'in Üçüncü Ordu Subay Talimgâhı Komutanlığından tekrar Üçüncü Ordu Karargâhına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Üçüncü Ordu Subay Talimgâhı Komutanlığından tekrar Üçüncü Ordu Karargâhına atanması.",
     "date": "1910-11T00:00:00Z",
     "location": {
       "lat": 32.7639,
       "lon": 22.6391
-    },
-    "images": ["https://example.com/images/derne.jpg"]
+    }
   },
   {
     "id": 29,
-    "title": "Mustafa Kemal'in, Selanik'te bulunan 38'inci Piyade Alayında görevlendirilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Selanik'te bulunan 38'inci Piyade Alayında görevlendirilmesi.",
     "date": "1911-01T00:00:00Z",
     "location": {
       "lat": 42.6977,
       "lon": 23.3219
-    },
-    "images": ["https://example.com/images/sofya.jpg"]
+    }
   },
   {
     "id": 30,
-    "title": "Mustafa Kemal'in, 5'inci Kolordunun Selanik-Kılkış arasında yaptığı manevralara katılması. (Manevra, 20 Nisan 1911 akşamı sona ermiştir.)",
+    "title": "Mustafa Kemal ATATÜRK'ün, 5'inci Kolordunun Selanik-Kılkış arasında yaptığı manevralara katılması. (Manevra, 20 Nisan 1911 akşamı sona ermiştir.)",
     "date": "1911-04-19T00:00:00Z",
     "location": {
       "lat": 42.6977,
       "lon": 23.3219
-    },
-    "images": ["https://example.com/images/yarbay.jpg"]
+    }
   },
   {
     "id": 31,
-    "title": "Mustafa Kemal'in, İstanbul'da Genelkurmay 1'inci Şubeye atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, İstanbul'da Genelkurmay 1'inci Şubeye atanması.",
     "date": "1911-09T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/19tumen.jpg"]
+    }
   },
   {
     "id": 32,
@@ -316,78 +329,70 @@
     "location": {
       "lat": 40.2313,
       "lon": 26.2765
-    },
-    "images": ["https://example.com/images/ariburnu.jpg"]
+    }
   },
   {
     "id": 33,
-    "title": "Mustafa Kemal'in, Trablusgarp'a gönüllü gitmek üzere gizlice arkadaşlarıyla beraber İstanbul'dan ayrılması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Trablusgarp'a gönüllü gitmek üzere gizlice arkadaşlarıyla beraber İstanbul'dan ayrılması.",
     "date": "1911-10-15T00:00:00Z",
     "location": {
       "lat": 40.2313,
       "lon": 26.2765
-    },
-    "images": ["https://example.com/images/albay.jpg"]
+    }
   },
   {
     "id": 34,
-    "title": "Mustafa Kemal'in binbaşılığa terfi etmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün binbaşılığa terfi etmesi.",
     "date": "1911-11-27T00:00:00Z",
     "location": {
       "lat": 40.2313,
       "lon": 26.2765
-    },
-    "images": ["https://example.com/images/anafartalar.jpg"]
+    }
   },
   {
     "id": 35,
-    "title": "Mustafa Kemal'in, Tobruk Bölgesi Komutanlığı görevini yürüten Ethem Paşa'nın yerine Tobruk Bölgesi Komutanlığına getirilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Tobruk Bölgesi Komutanlığı görevini yürüten Ethem Paşa'nın yerine Tobruk Bölgesi Komutanlığına getirilmesi.",
     "date": "1911-12-19T00:00:00Z",
     "location": {
       "lat": 40.2313,
       "lon": 26.2765
-    },
-    "images": ["https://example.com/images/conkbayiri.jpg"]
+    }
   },
   {
     "id": 36,
-    "title": "Mustafa Kemal'in Derne'ye gelmesi ve Derne Doğu Kolu Komutanlığını üzerine alması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Derne'ye gelmesi ve Derne Doğu Kolu Komutanlığını üzerine alması.",
     "date": "1911-12-30T00:00:00Z",
     "location": {
       "lat": 37.91,
       "lon": 40.23
-    },
-    "images": ["https://example.com/images/tuggeneral.jpg"]
+    }
   },
   {
     "id": 37,
-    "title": "Mustafa Kemal'in, 'Tâbiye Tatbikat Seyahatı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 5'inci Kolordunun 19-20 Nisan 1911 günleri yaptığı ve Mustafa Kemal'in de katıldığı bir askeri tatbikatın not ve krokilerinden oluşmuştur.)",
+    "title": "Mustafa Kemal ATATÜRK'ün, 'Tâbiye Tatbikat Seyahatı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 5'inci Kolordunun 19-20 Nisan 1911 günleri yaptığı ve Mustafa Kemal ATATÜRK'ün de katıldığı bir askeri tatbikatın not ve krokilerinden oluşmuştur.)",
     "date": "1911T00:00:00Z",
     "location": {
       "lat": 38.4,
       "lon": 42.1
-    },
-    "images": ["https://example.com/images/bitlis_mus.jpg"]
+    }
   },
   {
     "id": 38,
-    "title": "Mustafa Kemal'in Derne Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Derne Komutanlığına atanması.",
     "date": "1912-03T00:00:00Z",
     "location": {
       "lat": 36.2021,
       "lon": 36.1612
-    },
-    "images": ["https://example.com/images/7ordu.jpg"]
+    }
   },
   {
     "id": 39,
-    "title": "Mustafa Kemal'in Derne'den İstanbul'a hareketi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Derne'den İstanbul'a hareketi.",
     "date": "1912-10-24T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/almanya.jpg"]
+    }
   },
   {
     "id": 40,
@@ -396,18 +401,16 @@
     "location": {
       "lat": 36.2021,
       "lon": 36.1612
-    },
-    "images": ["https://example.com/images/yildirim.jpg"]
+    }
   },
   {
     "id": 41,
-    "title": "Mustafa Kemal'in, Gelibolu'da bulunan Bahr-i Sefîd (Çanakkale) Boğazı Kuva-yı Mürettebe Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Gelibolu'da bulunan Bahr-i Sefîd (Çanakkale) Boğazı Kuva-yı Mürettebe Komutanlığına atanması.",
     "date": "1912-11T00:00:00Z",
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/istanbul_donus.jpg"]
+    }
   },
   {
     "id": 42,
@@ -416,8 +419,7 @@
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/zabit_kumandan.jpg"]
+    }
   },
 
   {
@@ -427,8 +429,7 @@
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/9ordu.jpg"]
+    }
   },
   {
     "id": 44,
@@ -437,8 +438,7 @@
     "location": {
       "lat": 38.4127,
       "lon": 27.1384
-    },
-    "images": ["https://example.com/images/izmir_isgal.jpg"]
+    }
   },
   {
     "id": 45,
@@ -447,49 +447,43 @@
     "location": {
       "lat": 41.0082,
       "lon": 28.9784
-    },
-    "images": ["https://example.com/images/bandirma.jpg"]
+    }
   },
   {
     "id": 46,
-    "title": "Mustafa Kemal'in Sofya Ataşe Militerliğine atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Sofya Ataşe Militerliğine atanması.",
     "date": "1913-10-27T00:00:00Z",
     "location": {
       "lat": 41.2928,
       "lon": 36.3313
-    },
-    "images": ["https://example.com/images/samsun.jpg"]
+    }
   },
   {
     "id": 47,
-    "title": "Mustafa Kemal'in Sofya'ya gelmesi ve ataşe militerlik görevine başlaması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Sofya'ya gelmesi ve ataşe militerlik görevine başlaması.",
     "date": "1913-10-20T00:00:00Z",
     "location": {
       "lat": 40.6533,
       "lon": 35.833
-    },
-    "images": ["https://example.com/images/amasya_genelge.jpg"],
-    "quote": "Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir. Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır."
+    }
   },
   {
     "id": 48,
-    "title": "Mustafa Kemal'e, Sofya Ataşe Militerliğine ilâveten Bükreş, Belgrad ve Çetine Ataşe Militerliklerini de yürütme görevi verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, Sofya Ataşe Militerliğine ilâveten Bükreş, Belgrad ve Çetine Ataşe Militerliklerini de yürütme görevi verilmesi.",
     "date": "1914-01-11T00:00:00Z",
     "location": {
       "lat": 39.9086,
       "lon": 41.2769
-    },
-    "images": ["https://example.com/images/erzurum_kongresi.jpg"]
+    }
   },
   {
     "id": 49,
-    "title": "Mustafa Kemal'in yarbaylığa terfi etmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün yarbaylığa terfi etmesi.",
     "date": "1914-03-01T00:00:00Z",
     "location": {
       "lat": 39.7477,
       "lon": 37.0179
-    },
-    "images": ["https://example.com/images/sivas_kongresi.jpg"]
+    }
   },
   {
     "id": 50,
@@ -498,38 +492,34 @@
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/ankara_gelis.jpg"]
+    }
   },
   {
     "id": 51,
-    "title": "Mustafa Kemal'in, 3'üncü Kolorduya bağlı olarak Tekirdağ'da teşkil edilecek 19'uncu Tümen Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, 3'üncü Kolorduya bağlı olarak Tekirdağ'da teşkil edilecek 19'uncu Tümen Komutanlığına atanması.",
     "date": "1915-01-20T00:00:00Z",
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/tbmm_acilis.jpg"]
+    }
   },
   {
     "id": 52,
-    "title": "Mustafa Kemal'in Tekirdağ'a gelişi ve 19'uncu Tümeni kurma çalışmalarına başlaması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Tekirdağ'a gelişi ve 19'uncu Tümeni kurma çalışmalarına başlaması.",
     "date": "1915-02-02T00:00:00Z",
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/tbmm_baskan.jpg"]
+    }
   },
   {
     "id": 53,
-    "title": "Tekirdağ'daki 19'uncu Tümen Komutanlığının Maydos (Eceabat)'a nakli ve Mustafa Kemal'in 19'uncu Tümen Komutanlığı üzerinde olmak üzere Maydos Bölgesi Komutanı olarak görevini sürdürmesi.",
+    "title": "Tekirdağ'daki 19'uncu Tümen Komutanlığının Maydos (Eceabat)'a nakli ve Mustafa Kemal ATATÜRK'ün 19'uncu Tümen Komutanlığı üzerinde olmak üzere Maydos Bölgesi Komutanı olarak görevini sürdürmesi.",
     "date": "1915-02-25T00:00:00Z",
     "location": {
       "lat": 39.7333,
       "lon": 30.1833
-    },
-    "images": ["https://example.com/images/1inonu.jpg"]
+    }
   },
   {
     "id": 54,
@@ -538,8 +528,7 @@
     "location": {
       "lat": 39.7333,
       "lon": 30.1833
-    },
-    "images": ["https://example.com/images/2inonu.jpg"]
+    }
   },
   {
     "id": 55,
@@ -548,18 +537,16 @@
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/baskomutan.jpg"]
+    }
   },
   {
     "id": 56,
-    "title": "Mustafa Kemal'in komutasındaki 19'uncu Tümenin, 5'inci Ordunun genel ihtiyatını oluşturmak üzere Bigalı'ya gönderilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün komutasındaki 19'uncu Tümenin, 5'inci Ordunun genel ihtiyatını oluşturmak üzere Bigalı'ya gönderilmesi.",
     "date": "1915-04T00:00:00Z",
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/sakarya.jpg"]
+    }
   },
   {
     "id": 57,
@@ -568,38 +555,34 @@
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/maresal.jpg"]
+    }
   },
   {
     "id": 58,
-    "title": "Mustafa Kemal'in albaylığa terfi etmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün albaylığa terfi etmesi.",
     "date": "1915-06-01T00:00:00Z",
     "location": {
       "lat": 38.25,
       "lon": 30.25
-    },
-    "images": ["https://example.com/images/taarruz.jpg"]
+    }
   },
   {
     "id": 59,
-    "title": "Mustafa Kemal'e Harp Madalyası verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e Harp Madalyası verilmesi.",
     "date": "1915-07-15T00:00:00Z",
     "location": {
       "lat": 38.25,
       "lon": 30.25
-    },
-    "images": ["https://example.com/images/dumlupinar.jpg"]
+    }
   },
   {
     "id": 60,
-    "title": "Mustafa Kemal'in -5'inci Ordu Komutanı General Liman von Sanders'in emri ile- Anafartalar Grubu Komutanlığına getirilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün -5'inci Ordu Komutanı General Liman von Sanders'in emri ile- Anafartalar Grubu Komutanlığına getirilmesi.",
     "date": "1915-08-08T00:00:00Z",
     "location": {
       "lat": 38.25,
       "lon": 30.25
-    },
-    "images": ["https://example.com/images/ilkhedef.jpg"]
+    }
   },
   {
     "id": 61,
@@ -608,28 +591,25 @@
     "location": {
       "lat": 38.4127,
       "lon": 27.1384
-    },
-    "images": ["https://example.com/images/izmir_kurtulus.jpg"]
+    }
   },
   {
     "id": 62,
-    "title": "Mustafa Kemal komutasındaki kuvvetlerin, Conkbayırı'nda İngilizlere taarruzu ve bu taarruzun başarı ile sonuçlanması. (Bu muharebe esnasında, Mustafa Kemal'in kalbini hedef alan bir şarapnel parçasının, göğüs cebindeki saati parçalayarak geri dönmesi sonucu, kendisi mutlak bir ölümden kurtulmuştur.)",
+    "title": "Mustafa Kemal komutasındaki kuvvetlerin, Conkbayırı'nda İngilizlere taarruzu ve bu taarruzun başarı ile sonuçlanması. (Bu muharebe esnasında, Mustafa Kemal ATATÜRK'ün kalbini hedef alan bir şarapnel parçasının, göğüs cebindeki saati parçalayarak geri dönmesi sonucu, kendisi mutlak bir ölümden kurtulmuştur.)",
     "date": "1915-08-10T00:00:00Z",
     "location": {
       "lat": 40.3759,
       "lon": 28.8824
-    },
-    "images": ["https://example.com/images/mudanya.jpg"]
+    }
   },
   {
     "id": 63,
-    "title": "Mustafa Kemal'e, Anafartalar Grubu Komutanlığındaki üstün başarıları sebebiyle 'Muharebe Gümüş Liyakat Madalyası' verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, Anafartalar Grubu Komutanlığındaki üstün başarıları sebebiyle 'Muharebe Gümüş Liyakat Madalyası' verilmesi.",
     "date": "1915-09-01T00:00:00Z",
     "location": {
       "lat": 39.9334,
       "lon": 32.8597
-    },
-    "images": ["https://example.com/images/saltanat.jpg"]
+    }
   },
   {
     "id": 64,
@@ -643,7 +623,7 @@
   },
   {
     "id": 65,
-    "title": "Mustafa Kemal'e, 'Anafartalar Grubu Komutanlığı' dönemindeki üstün başarıları sebebiyle 'Muharebe Altın Liyakat Madalyası' verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, 'Anafartalar Grubu Komutanlığı' dönemindeki üstün başarıları sebebiyle 'Muharebe Altın Liyakat Madalyası' verilmesi.",
     "date": "1916-01-17T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -653,7 +633,7 @@
   },
   {
     "id": 66,
-    "title": "Mustafa Kemal'in, karargâhı Edirne'de bulunan 16'ncı Kolordu Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, karargâhı Edirne'de bulunan 16'ncı Kolordu Komutanlığına atanması.",
     "date": "1916-01-27T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -663,7 +643,7 @@
   },
   {
     "id": 67,
-    "title": "Mustafa Kemal'in komuta ettiği 16'ncı Kolordu Karargâhının Başkomutanlık Vekâletince Diyarbakır'a nakledilme kararı.",
+    "title": "Mustafa Kemal ATATÜRK'ün komuta ettiği 16'ncı Kolordu Karargâhının Başkomutanlık Vekâletince Diyarbakır'a nakledilme kararı.",
     "date": "1916-03-10T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -673,7 +653,7 @@
   },
   {
     "id": 68,
-    "title": "Mustafa Kemal'in, -16'ncı Kolordu Karargâhının Edirne'den Diyarbakır'a kaydırılması kararı üzerine- Edirne'den İstanbul'a gelmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün, -16'ncı Kolordu Karargâhının Edirne'den Diyarbakır'a kaydırılması kararı üzerine- Edirne'den İstanbul'a gelmesi.",
     "date": "1916-03-11T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -683,7 +663,7 @@
   },
   {
     "id": 69,
-    "title": "Mustafa Kemal'in, Diyarbakır'daki görevine gitmek üzere İstanbul'dan ayrılması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Diyarbakır'daki görevine gitmek üzere İstanbul'dan ayrılması.",
     "date": "1916-03-15T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -693,7 +673,7 @@
   },
   {
     "id": 70,
-    "title": "Mustafa Kemal'in Diyarbakır'a gelerek 16'ncı Kolordunun komutasını üzerine alması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Diyarbakır'a gelerek 16'ncı Kolordunun komutasını üzerine alması.",
     "date": "1916-03-26T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -703,7 +683,7 @@
   },
   {
     "id": 71,
-    "title": "Mustafa Kemal'in mirlivalığa (tümgeneralliğe) terfi etmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün mirlivalığa (tümgeneralliğe) terfi etmesi.",
     "date": "1916-04-01T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -713,7 +693,7 @@
   },
   {
     "id": 72,
-    "title": "Mustafa Kemal'in komuta ettiği 16'ncı Kolordu Karargâhının Diyarbakır'dan Silvan'a nakledilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün komuta ettiği 16'ncı Kolordu Karargâhının Diyarbakır'dan Silvan'a nakledilmesi.",
     "date": "1916-06-15T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -723,7 +703,7 @@
   },
   {
     "id": 73,
-    "title": "Mustafa Kemal'in Diyarbakır'dan Silvan'a gelmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Diyarbakır'dan Silvan'a gelmesi.",
     "date": "1916-06-16T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -763,7 +743,7 @@
   },
   {
     "id": 77,
-    "title": "Mustafa Kemal'in -Ahmet İzzet Paşa'nın izinli olarak bir süre İstanbul'a gitmesi üzerine - 2'nci Ordu Komutan Vekilliğine atanması. Mustafa Kemal'e Muş ve Bitlis cephelerindeki başarıları sebebiyle 'İkinci Rütbe'den Mecidî Nişanı' verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün -Ahmet İzzet Paşa'nın izinli olarak bir süre İstanbul'a gitmesi üzerine - 2'nci Ordu Komutan Vekilliğine atanması. Mustafa Kemal ATATÜRK'e Muş ve Bitlis cephelerindeki başarıları sebebiyle 'İkinci Rütbe'den Mecidî Nişanı' verilmesi.",
     "date": "1916-12-12T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -773,7 +753,7 @@
   },
   {
     "id": 78,
-    "title": "Mustafa Kemal'in, Sekerat (Diyarbakır'ın Palu kazasına bağlı bir bucak merkezi)'ta 2'inci Ordu Karargâhına gelerek komutan vekilliği görevini üzerine alması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Sekerat (Diyarbakır'ın Palu kazasına bağlı bir bucak merkezi)'ta 2'inci Ordu Karargâhına gelerek komutan vekilliği görevini üzerine alması.",
     "date": "1916-12-16T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -783,7 +763,7 @@
   },
   {
     "id": 79,
-    "title": "Mustafa Kemal'in Hicaz Kuvve-i Seferiye Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün Hicaz Kuvve-i Seferiye Komutanlığına atanması.",
     "date": "1917-02-14T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -793,7 +773,7 @@
   },
   {
     "id": 80,
-    "title": "21 Şubat 1917 - Mustafa Kemal'in Şam'a gitmek üzere Diyarbakır'dan ayrılması.",
+    "title": "21 Şubat 1917 - Mustafa Kemal ATATÜRK'ün Şam'a gitmek üzere Diyarbakır'dan ayrılması.",
     "date": "1917-02-21T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -803,7 +783,7 @@
   },
   {
     "id": 81,
-    "title": "Mustafa Kemal'in Şam'a gelmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Şam'a gelmesi.",
     "date": "1917-02-26T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -813,7 +793,7 @@
   },
   {
     "id": 82,
-    "title": "Mustafa Kemal'in -Hicaz Kuvve-i Seferiye Komutanlığının kaldırılması üzerine- 2'nci Ordu Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün -Hicaz Kuvve-i Seferiye Komutanlığının kaldırılması üzerine- 2'nci Ordu Komutanlığına atanması.",
     "date": "1917-03-05T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -823,7 +803,7 @@
   },
   {
     "id": 83,
-    "title": "Mustafa Kemal'in 2'nci Ordu Komutanı olarak Şam'dan Diyarbakır'a dönmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün 2'nci Ordu Komutanı olarak Şam'dan Diyarbakır'a dönmesi.",
     "date": "1917-03-12T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -833,7 +813,7 @@
   },
   {
     "id": 84,
-    "title": "Mustafa Kemal'in, Yıldırım Orduları Grubu Komutanlığına bağlı 7'nci Ordu Komutanlığına atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Yıldırım Orduları Grubu Komutanlığına bağlı 7'nci Ordu Komutanlığına atanması.",
     "date": "1917-07-05T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -843,7 +823,7 @@
   },
   {
     "id": 85,
-    "title": "Mustafa Kemal'in -7'nci Ordu Karargâhını oluşturmak üzere Enver Paşa tarafından çağırılması üzerine- Diyarbakır'dan İstanbul'a hareketi.",
+    "title": "Mustafa Kemal ATATÜRK'ün -7'nci Ordu Karargâhını oluşturmak üzere Enver Paşa tarafından çağırılması üzerine- Diyarbakır'dan İstanbul'a hareketi.",
     "date": "1917-07-10T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -853,7 +833,7 @@
   },
   {
     "id": 86,
-    "title": "Mustafa Kemal'in Diyarbakır'dan İstanbul'a gelmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Diyarbakır'dan İstanbul'a gelmesi.",
     "date": "1917-07-16T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -863,7 +843,7 @@
   },
   {
     "id": 87,
-    "title": "Mustafa Kemal'in 7'nci Ordu Komutanlığı görevine başlamak üzere İstanbul'dan Halep'e hareketi. (7'nci Ordu Karargâhı Halep'in Aziziye mevkiinde idi.)",
+    "title": "Mustafa Kemal ATATÜRK'ün 7'nci Ordu Komutanlığı görevine başlamak üzere İstanbul'dan Halep'e hareketi. (7'nci Ordu Karargâhı Halep'in Aziziye mevkiinde idi.)",
     "date": "1917-08-15T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -873,7 +853,7 @@
   },
   {
     "id": 88,
-    "title": "Mustafa Kemal'in, Halep'ten -İstanbul'da bulunan- Bahriye Nazırı ve 4'üncü Ordu Komutanı Cemal Paşa'ya, Sina Cephesi hakkındaki düşünce ve önerilerini bildiren geniş raporu.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Halep'ten -İstanbul'da bulunan- Bahriye Nazırı ve 4'üncü Ordu Komutanı Cemal Paşa'ya, Sina Cephesi hakkındaki düşünce ve önerilerini bildiren geniş raporu.",
     "date": "1917-09-20T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -883,7 +863,7 @@
   },
   {
     "id": 89,
-    "title": "Mustafa Kemal'in -Yıldırım Orduları Komutanı Mareşal Falkenhein'le anlaşmazlık sonucu- 7'nci Ordu Komutanlığından istifa etmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün -Yıldırım Orduları Komutanı Mareşal Falkenhein'le anlaşmazlık sonucu- 7'nci Ordu Komutanlığından istifa etmesi.",
     "date": "1917-10-06T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -893,7 +873,7 @@
   },
   {
     "id": 90,
-    "title": "Mustafa Kemal'in tekrar Diyarbakır'da bulunan 2'nci Ordu Komutanlığına atanması. (Mustafa Kemal, bu atamayı kabul etmediğinden işlem yürürlülük kazanmamış, kendisi 2'nci Ordu Komutanı sıfatıyla izinli sayılarak Halep'ten İstanbul'a gelmiştir.)",
+    "title": "Mustafa Kemal ATATÜRK'ün tekrar Diyarbakır'da bulunan 2'nci Ordu Komutanlığına atanması. (Mustafa Kemal, bu atamayı kabul etmediğinden işlem yürürlülük kazanmamış, kendisi 2'nci Ordu Komutanı sıfatıyla izinli sayılarak Halep'ten İstanbul'a gelmiştir.)",
     "date": "1917-10-09T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -903,7 +883,7 @@
   },
   {
     "id": 91,
-    "title": "Mustafa Kemal'in, Halep'ten İstanbul'a dönmesi. (Bazı kaynaklarda Mustafa Kemal'in İstanbul'a dönmesi ekim ortası veya ekim sonu olarak gösterilmektedir.)",
+    "title": "Mustafa Kemal ATATÜRK'ün, Halep'ten İstanbul'a dönmesi. (Bazı kaynaklarda Mustafa Kemal ATATÜRK'ün İstanbul'a dönmesi ekim ortası veya ekim sonu olarak gösterilmektedir.)",
     "date": "1917-10-15T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -913,7 +893,7 @@
   },
   {
     "id": 92,
-    "title": "Mustafa Kemal'in, İstanbul'da Genel Karargâhta görevlendirilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün, İstanbul'da Genel Karargâhta görevlendirilmesi.",
     "date": "1917-11-07T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -923,7 +903,7 @@
   },
   {
     "id": 93,
-    "title": "Mustafa Kemal'in, Veliaht Vahdettin Efendi'nin maiyetinde Almanya'ya gitmek üzere İstanbul'dan ayrılması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Veliaht Vahdettin Efendi'nin maiyetinde Almanya'ya gitmek üzere İstanbul'dan ayrılması.",
     "date": "1917-12-15T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -933,7 +913,7 @@
   },
   {
     "id": 94,
-    "title": "Mustafa Kemal'e, o güne kadarki üstün başarıları sebebiyle 'Birinci Rütbe'den Kılıçlı Mecidî Nişanı' verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, o güne kadarki üstün başarıları sebebiyle 'Birinci Rütbe'den Kılıçlı Mecidî Nişanı' verilmesi.",
     "date": "1917-12-16T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -943,7 +923,7 @@
   },
   {
     "id": 95,
-    "title": "Mustafa Kemal'in Almanya seyahatinden İstanbul'a dönmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Almanya seyahatinden İstanbul'a dönmesi.",
     "date": "1918-01-04T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -953,7 +933,7 @@
   },
   {
     "id": 96,
-    "title": "Mustafa Kemal'e, Alman İmparatoru tarafından 'Birinci Rütbeden Kılıçlı Cordon de Prusse Nişanı' verilmesi.",
+    "title": "Mustafa Kemal ATATÜRK'e, Alman İmparatoru tarafından 'Birinci Rütbeden Kılıçlı Cordon de Prusse Nişanı' verilmesi.",
     "date": "1918-02-19T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -963,7 +943,7 @@
   },
   {
     "id": 97,
-    "title": "Mustafa Kemal'in, böbrek rahatsızlığı sebebiyle tedavi için İstanbul'dan Viyana'ya hareketi. (Viyana ve Karlsbad'da 2 ay kadar tedavi görmüştür.)",
+    "title": "Mustafa Kemal ATATÜRK'ün, böbrek rahatsızlığı sebebiyle tedavi için İstanbul'dan Viyana'ya hareketi. (Viyana ve Karlsbad'da 2 ay kadar tedavi görmüştür.)",
     "date": "1918-05T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -973,7 +953,7 @@
   },
   {
     "id": 98,
-    "title": "Mustafa Kemal'in Viyana'dan İstanbul'a dönmesi. (Bu tarih bazı kaynaklarda 4 Ağustos 1918 olarak gösterilmiştir.)",
+    "title": "Mustafa Kemal ATATÜRK'ün Viyana'dan İstanbul'a dönmesi. (Bu tarih bazı kaynaklarda 4 Ağustos 1918 olarak gösterilmiştir.)",
     "date": "1918-08-02T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -983,7 +963,7 @@
   },
   {
     "id": 99,
-    "title": "Mustafa Kemal'in, Mareşal Falkenhein'ın yerine Yıldırım Orduları Grubu Komutanlığı'na getirilmiş olan Mareşal Liman von Sanders'in emrindeki 7'nci Orduya tekrar komutan olarak atanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Mareşal Falkenhein'ın yerine Yıldırım Orduları Grubu Komutanlığı'na getirilmiş olan Mareşal Liman von Sanders'in emrindeki 7'nci Orduya tekrar komutan olarak atanması.",
     "date": "1918-08-07T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -993,7 +973,7 @@
   },
   {
     "id": 100,
-    "title": "Mustafa Kemal'in, Nablus'taki 7'nci Ordu Karargâhına gelerek komutayı ele alması.",
+    "title": "Mustafa Kemal ATATÜRK'ün, Nablus'taki 7'nci Ordu Karargâhına gelerek komutayı ele alması.",
     "date": "1918-09-01T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1013,7 +993,7 @@
   },
   {
     "id": 102,
-    "title": "Mustafa Kemal'in gelişen İngiliz taarruzu karşısında 7'nci Orduyu Şeria Nehri'nin doğusuna alma kararı. (19 Eylül tarihli İngiliz taarruzu karşısında 8'inci Ordu cephesinin yarılması üzerine 4'üncü ve 7'nci Ordular da düşman tarafından çevrilme tehlikesinde kalmışlardı. Mustafa Kemal bu durumda, uygun koşullar altında muharebeye devam etmek için 20 Eylül'de birliklerine Şeria Nehri'nin doğusuna çekilme emrini vermiştir. Bu karar üzerine, 7'nci Ordu birlikleri düzenini ve savaş gücünü bozmadan Rayak'a, oradan da Halep'e çekilmiştir.)",
+    "title": "Mustafa Kemal ATATÜRK'ün gelişen İngiliz taarruzu karşısında 7'nci Orduyu Şeria Nehri'nin doğusuna alma kararı. (19 Eylül tarihli İngiliz taarruzu karşısında 8'inci Ordu cephesinin yarılması üzerine 4'üncü ve 7'nci Ordular da düşman tarafından çevrilme tehlikesinde kalmışlardı. Mustafa Kemal bu durumda, uygun koşullar altında muharebeye devam etmek için 20 Eylül'de birliklerine Şeria Nehri'nin doğusuna çekilme emrini vermiştir. Bu karar üzerine, 7'nci Ordu birlikleri düzenini ve savaş gücünü bozmadan Rayak'a, oradan da Halep'e çekilmiştir.)",
     "date": "1918-09-20T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1023,7 +1003,7 @@
   },
   {
     "id": 103,
-    "title": "Mustafa Kemal'e olağanüstü hizmetleri ve ordusunu imhadan kurtardığı için fahri yaverlik unvanı verilmesi. (Bu tarih, bazı kaynaklarda 21 Eylül, bazı kaynaklarda ise 23 Eylül olarak belirtilmiştir.)",
+    "title": "Mustafa Kemal ATATÜRK'e olağanüstü hizmetleri ve ordusunu imhadan kurtardığı için fahri yaverlik unvanı verilmesi. (Bu tarih, bazı kaynaklarda 21 Eylül, bazı kaynaklarda ise 23 Eylül olarak belirtilmiştir.)",
     "date": "1918-09-22T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1053,7 +1033,7 @@
   },
   {
     "id": 106,
-    "title": "Mareşal Liman von Sanders'in, Yıldırım Orduları Grup Komutanlığını Mustafa Kemal'e devretmesi.",
+    "title": "Mareşal Liman von Sanders'in, Yıldırım Orduları Grup Komutanlığını Mustafa Kemal ATATÜRK'e devretmesi.",
     "date": "1918-10-31T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1063,7 +1043,7 @@
   },
   {
     "id": 107,
-    "title": "Yıldırım Orduları Grubu Komutanlığı ile 7'nci Ordu Karargâhının kaldırılması ve Mustafa Kemal'in Harbiye Nezareti emrine verilmesi.",
+    "title": "Yıldırım Orduları Grubu Komutanlığı ile 7'nci Ordu Karargâhının kaldırılması ve Mustafa Kemal ATATÜRK'ün Harbiye Nezareti emrine verilmesi.",
     "date": "1918-11T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1073,7 +1053,7 @@
   },
   {
     "id": 108,
-    "title": "Mustafa Kemal'in Adana'dan trenle İstanbul'a hareketi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Adana'dan trenle İstanbul'a hareketi.",
     "date": "1918-11-10T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1083,7 +1063,7 @@
   },
   {
     "id": 109,
-    "title": "Mustafa Kemal'in Adana'dan İstanbul'a gelmesi.",
+    "title": "Mustafa Kemal ATATÜRK'ün Adana'dan İstanbul'a gelmesi.",
     "date": "1918-11-13T00:00:00Z",
     "location": {
       "lat": 39.9334,
@@ -1093,7 +1073,7 @@
   },
   {
     "id": 110,
-    "title": "Mustafa Kemal'in -1914 yılında yazdığı- 'Zabit ve Kumandan İle Hasbihâl' adlı eserinin İstanbul'da yayımlanması.",
+    "title": "Mustafa Kemal ATATÜRK'ün -1914 yılında yazdığı- 'Zabit ve Kumandan İle Hasbihâl' adlı eserinin İstanbul'da yayımlanması.",
     "date": "1918-12T00:00:00Z",
     "location": {
       "lat": 39.9334,
