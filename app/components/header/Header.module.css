@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  border-radius: 1rem;
+  width: 70px;
+  height: 70px;
+}
+
+.title {
+  font-size: 20px;
+  color: #666;
+}
+
+.volume {
+  margin-left: auto;
+}
+
+.muteButton {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  transition: all 0.8s ease-in-out;
+  backdrop-filter: invert(0.3);
+}

@@ -15,22 +15,27 @@ export default function Content() {
 
   return (
     <div className={styles.content}>
-      <div className={styles.date}>
-        {formatDate(data.find((item) => item.id === Number(searchParams.get('id')))?.date || '')}
-      </div>
+      <div className={styles.mapAndDetails}>
+        <div>
+          <div className={styles.date}>
+            {formatDate(
+              data.find((item) => item.id === Number(searchParams.get('id')))?.date || ''
+            )}
+          </div>
+          <h2 className={styles.title}>
+            {data.find((item) => item.id === Number(searchParams.get('id')))?.title}
+          </h2>
+        </div>
 
-      <MapWithNoSSR
-        location={
-          data.find((item) => item.id === Number(searchParams.get('id')))?.location || {
-            lat: 0,
-            lon: 0,
+        <MapWithNoSSR
+          location={
+            data.find((item) => item.id === Number(searchParams.get('id')))?.location || {
+              lat: 0,
+              lon: 0,
+            }
           }
-        }
-      />
-
-      <h1 className={styles.title}>
-        {data.find((item) => item.id === Number(searchParams.get('id')))?.title}
-      </h1>
+        />
+      </div>
 
       <div className={styles.images}>
         {data

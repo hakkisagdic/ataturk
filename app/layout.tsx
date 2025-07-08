@@ -10,8 +10,8 @@ const barlow = Barlow({
 })
 
 export const metadata: Metadata = {
-  title: "Mustafa Kemal Atatürk'ün Hayatı",
-  description: "Kronolojik olarak Mustafa Kemal Atatürk'ün hayatı",
+  title: "Mustafa Kemal ATATÜRK'ün Hayatı",
+  description: "Kronolojik olarak Mustafa Kemal ATATÜRK'ün hayatı",
 }
 
 export default function RootLayout({

@@ -4,10 +4,23 @@ export function getYear(date: string): number {
 }
 
 export function formatDate(date: string): string {
-  const options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
+  if (date.length === 17) {
+    // ay ve yıl
+    return new Date(date).toLocaleDateString('tr-TR', {
+      month: 'long',
+      year: 'numeric',
+    })
+  } else if (date.length === 14) {
+    // sadece yıl
+    return new Date(date).toLocaleDateString('tr-TR', {
+      year: 'numeric',
+    })
+  } else {
+    const options: Intl.DateTimeFormatOptions = {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    }
+    return new Date(date).toLocaleDateString('tr-TR', options)
   }
-  return new Date(date).toLocaleDateString('tr-TR', options)
 }

@@ -1,8 +1,6 @@
 .content {
   position: relative;
   padding: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-color: #ffffff95;
 }
 
 .title {
@@ -13,19 +11,13 @@
   width: 35dvw;
   color: #222;
   margin-top: 1rem;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  font-weight: 400;
 }
 
 .date {
   color: #222;
-  text-align: right;
   padding-bottom: 1rem;
-}
-
-@media screen and (max-width: 600px) {
-  .title {
-    font-size: 1.7rem;
-    width: 80dvw;
-  }
 }
 
 .images {
@@ -37,18 +29,43 @@
 }
 
 .image {
-  border: 1px solid #222;
   border-radius: 5px;
-  overflow: hidden;
+  background-color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .image img {
-  object-fit: contain;
-  width: 300px;
+  object-fit: cover;
+  width: 200px;
   height: 200px;
 }
 
 .image p {
   padding: 0.5rem;
   text-align: center;
+}
+
+.mapAndDetails {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 1.7rem;
+    width: 80dvw;
+  }
+
+  .mapAndDetails {
+    flex-direction: column;
+  }
+
+  .images {
+    margin-bottom: 10rem;
+  }
 }
