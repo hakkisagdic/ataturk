@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { Barlow } from 'next/font/google'
+import { Suspense } from 'react'
 
 const barlow = Barlow({
   subsets: ['latin'],
@@ -21,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='tr'>
-      <body className={barlow.className}>{children}</body>
+      <Suspense>
+        <body className={barlow.className}>{children}</body>
+      </Suspense>
     </html>
   )
 }

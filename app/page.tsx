@@ -1,6 +1,5 @@
 'use client'
 
-import { Suspense } from 'react'
 import Header from './components/header/Header'
 import Slides from './components/slides/Slides'
 import Timeline from './components/timeline/Timeline'
@@ -17,16 +16,14 @@ export default function Home() {
 
   return (
     <>
-      <Suspense fallback={<div style={{ position: 'absolute' }}>Harita yükleniyor...</div>}>
-        <MapWithNoSSR
-          location={
-            data.find((item) => item.id === Number(searchParams.get('id')))?.location || {
-              lat: 0,
-              lon: 0,
-            }
+      <MapWithNoSSR
+        location={
+          data.find((item) => item.id === Number(searchParams.get('id')))?.location || {
+            lat: 0,
+            lon: 0,
           }
-        />
-      </Suspense>
+        }
+      />
 
       <Header />
       <Timeline />
