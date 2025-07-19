@@ -1,6 +1,6 @@
 .map {
   animation: fade-in 0.1s ease-in-out;
-  height: 90dvh;
+  height: 100dvh;
   width: 100dvw;
   z-index: -1;
   position: absolute;
