@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <>
-      <Suspense>
+      <Suspense fallback={<div style={{ position: 'absolute' }}>Harita yükleniyor...</div>}>
         <MapWithNoSSR
           location={
             data.find((item) => item.id === Number(searchParams.get('id')))?.location || {
@@ -26,11 +26,11 @@ export default function Home() {
             }
           }
         />
-
-        <Header />
-        <Timeline />
-        <Slides />
       </Suspense>
+
+      <Header />
+      <Timeline />
+      <Slides />
     </>
   )
 }
