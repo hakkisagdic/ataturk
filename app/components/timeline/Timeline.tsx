@@ -4,7 +4,11 @@ import styles from './Timeline.module.css'
 import data from '@/app/data/data.json'
 import { getYear } from '@/app/helpers/date'
 import { useSearchParams } from 'next/navigation'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useCallback } from 'react'
+import Image from 'next/image'
+
+import chevronLeft from '@/app/assets/icons/chevron-left.svg'
+import chevronRight from '@/app/assets/icons/chevron-right.svg'
 
 export default function Timeline() {
   const searchParams = useSearchParams()
@@ -48,8 +52,46 @@ export default function Timeline() {
     }
   }, [searchParams])
 
+  const onGoPrev = useCallback(() => {
+    const url = new URL(window.location.href)
+    const currentId = searchParams.get('id')
+    const currentIndex = data.findIndex((item) => item.id === Number(currentId))
+    const prevIndex = (currentIndex - 1 + data.length) % data.length
+    url.searchParams.set('id', data[prevIndex].id.toString())
+    window.history.pushState({}, '', url.toString())
+  }, [searchParams])
+
+  const onGoNext = useCallback(() => {
+    const url = new URL(window.location.href)
+    const currentId = searchParams.get('id')
+    const currentIndex = data.findIndex((item) => item.id === Number(currentId))
+    const nextIndex = (currentIndex + 1) % data.length
+    url.searchParams.set('id', data[nextIndex].id.toString())
+    window.history.pushState({}, '', url.toString())
+  }, [searchParams])
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'ArrowLeft') {
+        onGoPrev()
+      } else if (event.key === 'ArrowRight') {
+        onGoNext()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [onGoPrev, onGoNext])
+
   return (
     <section className={styles.timeline}>
+      <button className={styles.actionButton} onClick={onGoPrev}>
+        <Image src={chevronLeft} alt='Önceki' width={24} height={24} />
+      </button>
+
       <div className={styles.timelineContainer} ref={timelineContainerRef}>
         {uniqueYears.map((item, index) => (
           <button
@@ -70,6 +112,10 @@ export default function Timeline() {
           </button>
         ))}
       </div>
+
+      <button className={styles.actionButton} onClick={onGoNext}>
+        <Image src={chevronRight} alt='Sonraki' width={24} height={24} />
+      </button>
     </section>
   )
 }

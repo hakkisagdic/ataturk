@@ -1,20 +1,21 @@
 .map {
-  height: 400px;
-  width: 40dvw;
   animation: fade-in 0.1s ease-in-out;
+  height: 90dvh;
+  width: 100dvw;
+  z-index: -1;
+  position: absolute;
+  pointer-events: none;
+  cursor: none;
+  zoom: 1.2;
+  transform: translate(-10dvw, -10dvh);
+  filter: grayscale(1);
 }
 
 @keyframes fade-in {
   from {
-    filter: blur(10px);
+    filter: brightness(1.5) grayscale(1);
   }
   to {
-    filter: blur(0px);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .map {
-    width: 100dvw;
+    filter: brightness(1) grayscale(1);
   }
 }
