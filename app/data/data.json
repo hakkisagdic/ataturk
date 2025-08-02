@@ -7,7 +7,12 @@
       "lat": 40.6401,
       "lon": 22.9444
     },
-    "images": []
+    "images": [
+      {
+        "url": "/images/dogdugu-ev.jpg",
+        "alt": "Doğduğu ev"
+      }
+    ]
   },
   {
     "id": 2,
@@ -49,16 +54,16 @@
     },
     "images": [
       {
-        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/1.jpg",
-        "alt": "Lorem ipsum"
+        "url": "/images/ilgili-bina.webp",
+        "alt": "İlgili bina"
       },
       {
-        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/2.gif",
-        "alt": "test 2"
+        "url": "/images/karne.gif",
+        "alt": "Karne"
       },
       {
-        "url": "https://ata.msb.gov.tr/Content/Upload/Images/manastirdaki_ogrenimi/3.jpg",
-        "alt": "3123123"
+        "url": "/images/sinav-sonuc-belgesi.jpg",
+        "alt": "Sınav sonuç belgesi"
       }
     ]
   },

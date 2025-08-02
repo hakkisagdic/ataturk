@@ -3,10 +3,11 @@
   padding: 1rem;
   gap: 1rem;
   align-items: center;
-  width: 100%;
-  backdrop-filter: blur(2px);
+  width: max-content;
+  backdrop-filter: blur(5px);
   position: sticky;
   top: 0;
+  border-bottom-right-radius: 3rem;
 }
 
 .logo {
@@ -16,6 +17,26 @@
 }
 
 .title {
-  font-size: 20px;
-  color: #666;
+  font-size: 1rem;
+  color: #000000;
+  text-shadow: 20px 0 10px rgba(255, 255, 255, 0.9);
+  animation: zoomOut 1s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .link {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom-right-radius: 0;
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    font-size: 1.2rem;
+  }
+  100% {
+    font-size: 1rem;
+  }
 }

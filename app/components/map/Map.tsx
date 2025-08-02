@@ -22,12 +22,16 @@ type MapProps = {
 }
 
 export default function Map({ location }: MapProps) {
+  // Random zoom between 5 and 7
+  const randomZoomLevel = Math.floor(Math.random() * (7 - 5 + 1)) + 5
+
   return (
     <div className={styles.map} key={location.lat}>
       <MapContainer
-        center={[location.lat, location.lon]}
-        zoom={7}
-        scrollWheelZoom={false}
+        center={[location.lat + 1.4, location.lon]}
+        zoom={randomZoomLevel}
+        scrollWheelZoom={true}
+        keyboard={false}
         style={{ height: '100%' }}
       >
         <TileLayer
