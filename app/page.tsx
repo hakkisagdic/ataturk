@@ -7,21 +7,25 @@ import Timeline from './components/timeline/Timeline'
 import data from './data/data.json'
 import dynamic from 'next/dynamic'
 import { useSearchParams } from 'next/navigation'
+import { useMemo } from 'react'
 
 export default function Home() {
   const searchParams = useSearchParams()
 
-  const MapWithNoSSR = dynamic(() => import('@/app/components/map/Map'), {
-    ssr: false,
-  })
+  const MapWithNoSSR = useMemo(
+    () =>
+      dynamic(() => import('@/app/components/map/Map'), {
+        ssr: false,
+      }),
+    []
+  )
 
   return searchParams.get('id') === null ? (
-    <section>
+    <>
       <Header />
       <Timeline />
-
       <About />
-    </section>
+    </>
   ) : (
     <>
       <MapWithNoSSR

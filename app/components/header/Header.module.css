@@ -19,7 +19,7 @@
 .title {
   font-size: 1rem;
   color: #000000;
-  text-shadow: 20px 0 10px rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.9);
   animation: zoomOut 1s ease-in-out;
 }
 

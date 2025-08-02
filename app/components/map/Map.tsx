@@ -1,9 +1,10 @@
 'use client'
 
 import styles from './Map.module.css'
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
+import { useEffect, useRef } from 'react'
 
 const icon = L.icon({
   iconUrl: '/icons/location.svg',
@@ -21,16 +22,40 @@ type MapProps = {
   }
 }
 
+function MapCenterUpdater({ location }: MapProps) {
+  const map = useMap()
+  const prevLocation = useRef<{ lat: number; lon: number } | null>(null)
+
+  useEffect(() => {
+    if (!map) return
+
+    if (prevLocation.current) {
+      // önceki konumdan yeni konuma uç
+      map.flyTo([location.lat + 1.1, location.lon], map.getZoom(), {
+        animate: true,
+        duration: 0.6,
+      })
+    } else {
+      // sadece ilk mount'ta direkt konum ayarla
+      map.setView([location.lat, location.lon], map.getZoom(), { animate: false })
+    }
+
+    prevLocation.current = location
+  }, [location, map])
+
+  return null
+}
+
 export default function Map({ location }: MapProps) {
   // Random zoom between 5 and 7
-  const randomZoomLevel = Math.floor(Math.random() * (7 - 5 + 1)) + 5
+  const initialZoom = Math.floor(Math.random() * (7 - 5 + 1)) + 5
 
   return (
-    <div className={styles.map} key={location.lat}>
+    <div className={styles.map}>
       <MapContainer
-        center={[location.lat + 1.4, location.lon]}
-        zoom={randomZoomLevel}
-        scrollWheelZoom={true}
+        center={[location.lat, location.lon]}
+        zoom={initialZoom}
+        scrollWheelZoom
         keyboard={false}
         style={{ height: '100%' }}
       >
@@ -38,7 +63,8 @@ export default function Map({ location }: MapProps) {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
-        <Marker position={[location.lat, location.lon]} icon={icon}></Marker>
+        <Marker position={[location.lat, location.lon]} icon={icon} />
+        <MapCenterUpdater location={location} />
       </MapContainer>
     </div>
   )

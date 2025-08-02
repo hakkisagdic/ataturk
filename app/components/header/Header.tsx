@@ -1,5 +1,3 @@
-'use client'
-
 import styles from './Header.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -10,7 +8,7 @@ export default function Header() {
     <header className={styles.header}>
       <Link href='/' className={styles.link}>
         <Image className={styles.logo} src={HeaderPicture} alt='logo' width={200} height={200} />
-        <h1 className={styles.title}>Mustafa Kemal ATATÜRK&#39;un Hayatı</h1>
+        <h1 className={styles.title}>Mustafa Kemal ATATÜRK&#39;ün Hayatı</h1>
       </Link>
     </header>
   )

@@ -1,0 +1,53 @@
+/* eslint-disable @next/next/no-img-element */
+import { useEffect, useState } from 'react'
+import styles from './Contributors.module.css'
+
+type Contributor = {
+  login: string
+  avatar_url: string
+  html_url: string
+}
+
+export default function Contributors() {
+  const [contributors, setContributors] = useState<Contributor[]>([])
+
+  useEffect(() => {
+    // Fetch contributors from GitHub API
+    fetch('https://api.github.com/repos/gayret/ataturk/contributors')
+      .then((response) => response.json())
+      .then((data) => {
+        const names = data.map(
+          (contributor: { login: string; avatar_url: string; html_url: string }) => ({
+            login: contributor.login,
+            avatar_url: contributor.avatar_url,
+            html_url: contributor.html_url,
+          })
+        )
+        setContributors(names)
+      })
+      .catch((error) => console.error('Error fetching contributors:', error))
+  }, [])
+
+  return (
+    contributors.length > 0 && (
+      <section>
+        <div>
+          <h4>Katkıda bulunanlar</h4>
+        </div>
+        <div className={styles.contributors}>
+          {contributors.map((contributor, index) => (
+            <a
+              href={contributor.html_url}
+              key={index}
+              title={contributor.login}
+              target='_blank'
+              className={styles.contributor}
+            >
+              <img src={contributor.avatar_url} width={50} height={50} alt={contributor.login} />
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  )
+}

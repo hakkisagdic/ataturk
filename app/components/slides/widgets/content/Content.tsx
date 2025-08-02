@@ -25,7 +25,20 @@ export default function Content() {
     <div className={styles.content}>
       <div className={styles.dateAndTitle}>
         <div className={styles.date}>{formatDate(selectedItem?.date || '')}</div>
-        <p className={styles.title}>{selectedItem?.title}</p>
+        <p className={styles.title}>
+          {selectedItem?.title}
+          {selectedItem?.source && (
+            <span className={styles.source} title={`Bilgi kaynağı: ${selectedItem.source}`}>
+              <a href={selectedItem.source} target='_blank' rel='noopener noreferrer'>
+                {selectedItem.source.includes('https://') ? '*' : 'Bilgi Kaynağı'}
+              </a>
+            </span>
+          )}
+        </p>
+
+        {selectedItem?.description && (
+          <p className={styles.description}>{selectedItem.description}</p>
+        )}
       </div>
 
       {selectedItem?.images && selectedItem.images.length > 0 && (

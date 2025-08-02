@@ -1,11 +1,11 @@
 import styles from './About.module.css'
+import Contributors from './widgets/Contributors'
 
 export default function About() {
   return (
     <div className={styles.content}>
       <div className={styles.description}>
         <h1 className={styles.title}>Çocuklara ve Türk Gençliğine!</h1>
-
         <p>
           Ulu Önder Gazi Mustafa Kemal ATATÜRK, Türk milletinin bağımsızlık mücadelesine önderlik
           ederek, Türkiye Cumhuriyeti&#39;nin temellerini atan ve modern Türkiye&#39;nin kurucusu
@@ -15,7 +15,6 @@ export default function About() {
         </p>
 
         <h4>Kullanımı</h4>
-
         <p>
           Sayfanın aşağısında bulunan zaman çizelgesinde Atatürk&#39;ün hayatındaki önemli olayları
           görebilirsiniz. Her bir tarihin üzerine tıklayarak, o tarihteki olaylar hakkında bilgi
@@ -29,7 +28,6 @@ export default function About() {
         </p>
 
         <h4>Katkıda bulunun</h4>
-
         <p>
           Projenin kaynak kodları ve verileri herkese açıktır. Siz de Atatürk&#39;ün mirasını
           yaşatmaya yardımcı olabilirsiniz.
@@ -38,20 +36,12 @@ export default function About() {
         <p>
           Projeye katkıda bulunmak için{' '}
           <a href='https://github.com/gayret/ataturk/blob/main/app/data/data.json' target='_blank'>
-            GitHub reposuna
+            GitHub&#39;a
           </a>{' '}
           göz atabilirsiniz.
         </p>
 
-        <h4>Kaynakça</h4>
-
-        <ul>
-          <li>
-            <a href='https://ata.msb.gov.tr/' target='_blank'>
-              ata.msb.gov.tr
-            </a>
-          </li>
-        </ul>
+        <Contributors />
       </div>
     </div>
   )
