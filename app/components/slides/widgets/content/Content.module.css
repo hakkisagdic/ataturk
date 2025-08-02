@@ -1,6 +1,5 @@
 .content {
-  margin: 1rem;
-  overflow: auto;
+  margin-block: 1rem;
 }
 
 .dateAndTitle {
@@ -35,6 +34,9 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 200px));
   justify-content: center;
   gap: 1rem;
+  max-height: 50dvh;
+  overflow-y: auto;
+  padding: 1rem;
 }
 
 .image {

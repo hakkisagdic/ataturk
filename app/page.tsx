@@ -1,5 +1,6 @@
 'use client'
 
+import About from './components/about/About'
 import Header from './components/header/Header'
 import Slides from './components/slides/Slides'
 import Timeline from './components/timeline/Timeline'
@@ -14,7 +15,14 @@ export default function Home() {
     ssr: false,
   })
 
-  return (
+  return searchParams.get('id') === null ? (
+    <section>
+      <Header />
+      <Timeline />
+
+      <About />
+    </section>
+  ) : (
     <>
       <MapWithNoSSR
         location={
@@ -26,8 +34,8 @@ export default function Home() {
       />
 
       <Header />
-      <Timeline />
       <Slides />
+      <Timeline />
     </>
   )
 }

@@ -24,8 +24,16 @@ body {
 }
 
 a {
-  color: inherit;
+  color: red;
   text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  margin-left: 1.5rem;
 }
 
 /* width */
@@ -41,10 +49,16 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #dad9d9;
+  background: black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 0.7rem;
 }

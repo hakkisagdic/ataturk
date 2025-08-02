@@ -1,10 +1,13 @@
 .timeline {
   display: flex;
   transition: all 0.5s ease-in-out;
-  gap: 2rem;
-  padding: 0 2rem 1rem 2rem;
+  padding: 1rem;
   width: max-content;
+  position: fixed;
+  bottom: 1rem;
   margin-inline: auto;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .timelineContainer {
@@ -77,8 +80,28 @@
   border-radius: 50%;
   transition: all 0.8s ease-in-out;
   backdrop-filter: invert(0.3);
+  scale: 0.4;
 }
 
 .actionButton:hover {
   backdrop-filter: invert(0.7);
+}
+
+@media (max-width: 600px) {
+  .timelineContainer {
+    max-width: 70dvw;
+  }
+
+  .timelineItem {
+    font-size: 0.7rem;
+  }
+
+  .actionButton {
+    scale: 0.6;
+  }
+
+  .active {
+    font-size: 0.6rem;
+    margin-inline: 0.5rem;
+  }
 }

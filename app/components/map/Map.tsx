@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
 const icon = L.icon({
-  iconUrl: 'https://www.svgrepo.com/show/522167/location.svg',
+  iconUrl: '/icons/location.svg',
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
@@ -25,8 +25,8 @@ export default function Map({ location }: MapProps) {
   return (
     <div className={styles.map} key={location.lat}>
       <MapContainer
-        center={[38.980359, 37.015598]}
-        zoom={4}
+        center={[location.lat, location.lon]}
+        zoom={7}
         scrollWheelZoom={false}
         style={{ height: '100%' }}
       >
