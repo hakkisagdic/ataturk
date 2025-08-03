@@ -32,8 +32,8 @@
     "title": "Babası Ali Rıza Efendi'nin ölümü.",
     "date": "1886-05-23T00:00:00Z",
     "location": {
-      "lat": 40.6401,
-      "lon": 22.9444
+      "lat": 40.635833,
+      "lon": 40.635833
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -66,7 +66,7 @@
     "images": [
       {
         "url": "/images/karne.gif",
-        "alt": "Belge"
+        "alt": "Karne"
       },
       {
         "url": "/images/sinav-sonuc-belgesi.jpg",
@@ -83,7 +83,16 @@
       "lat": 41.0082,
       "lon": 28.9784
     },
-    "images": [],
+    "images": [
+      {
+        "url": "/images/istanbul-harp-okulu.gif",
+        "alt": "İstanbul Harp Okulu"
+      },
+      {
+        "url": "/images/ataturk-arkadaslari-ile.gif",
+        "alt": "Atatürk ve arkadaşları"
+      }
+    ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
@@ -154,11 +163,12 @@
   },
   {
     "id": 13,
-    "title": "Şam'dan, merkezi Manastır'da bulunan 3'üncü Ordu Karargâhına atanması. (Bu karargâhın Selanik'teki şubesinde görev yapmıştır.)",
+    "title": "Şam'dan, merkezi Manastır'da bulunan 3'üncü Ordu Karargâhına atanması.",
+    "description": "(Bu karargâhın Selanik'teki şubesinde görev yapmıştır.)",
     "date": "1907-10-13T00:00:00Z",
     "location": {
-      "lat": 41.0082,
-      "lon": 28.9784
+      "lat": 40.635833,
+      "lon": 22.954444
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -190,8 +200,8 @@
     "title": "İkinci Meşrutiyet'in ilanı.",
     "date": "1908-07-23T00:00:00Z",
     "location": {
-      "lat": 41.0082,
-      "lon": 28.9784
+      "lat": 40.635833,
+      "lon": 22.954444
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -201,8 +211,8 @@
     "title": "İkinci Meşrutiyet'in ilanından sonra, İstanbul'da Meclis-i Mebusanın toplanması.",
     "date": "1908-12-17T00:00:00Z",
     "location": {
-      "lat": 40.6401,
-      "lon": 22.9444
+      "lat": 41.032251,
+      "lon": 28.988042
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -223,8 +233,8 @@
     "title": "İstanbul'da İkinci Meşrutiyet'e karşı -avcı taburlarının ayaklanmasıyla- büyük isyan çıkması (31 Mart İsyanı).",
     "date": "1909-04-13T00:00:00Z",
     "location": {
-      "lat": 40.6401,
-      "lon": 22.9444
+      "lat": 40.635833,
+      "lon": 22.954444
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -264,7 +274,8 @@
   },
   {
     "id": 23,
-    "title": "Selanik'te 'İttihat ve Terakki Cemiyeti Büyük Kongresi'nin toplanması. (Mustafa Kemal, bu kongrede bir konuşma yaparak ordunun siyasetten çekilmesi gereğini savunmuştur.)",
+    "title": "Selanik'te 'İttihat ve Terakki Cemiyeti Büyük Kongresi'nin toplanması.",
+    "description": "(Mustafa Kemal, bu kongrede bir konuşma yaparak ordunun siyasetten çekilmesi gereğini savunmuştur.)",
     "date": "1909-09-22T00:00:00Z",
     "location": {
       "lat": 40.6401,
@@ -278,15 +289,16 @@
     "title": "Selanik 2'nci Redif tümeni Kurmay Başkanlığından tekrar 3'üncü Ordu Karargâhına atanması.",
     "date": "1909-10-05T00:00:00Z",
     "location": {
-      "lat": 48.8566,
-      "lon": 2.3522
+      "lat": 40.6401,
+      "lon": 22.9444
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 25,
-    "title": "'Cumalı Ordugâhı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 30 Ağustos - 8 Eylül 1909 arasında Cumalı Ordugâhında yapılan askerî manevra esnasında tutulan not ve krokilerden oluşmuştur.)",
+    "title": "'Cumalı Ordugâhı' adlı kitabının Selanik'te yayımlanması.",
+    "description": "(Bu küçük kitap, 30 Ağustos - 8 Eylül 1909 arasında Cumalı Ordugâhında yapılan askerî manevra esnasında tutulan not ve krokilerden oluşmuştur.)",
     "date": "1909-10-06T00:00:00Z",
     "location": {
       "lat": 40.6401,
@@ -311,8 +323,8 @@
     "title": "Orduyu temsilen, Picardie Manevralarını izlemek amacıyla Fransa'ya gönderilmesi.",
     "date": "1910-09T00:00:00Z",
     "location": {
-      "lat": 32.0762,
-      "lon": 23.9614
+      "lat": 49.5998946,
+      "lon": 2.1583514
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -322,8 +334,8 @@
     "title": "Üçüncü Ordu Subay Talimgâhı Komutanlığından tekrar Üçüncü Ordu Karargâhına atanması.",
     "date": "1910-11T00:00:00Z",
     "location": {
-      "lat": 32.7639,
-      "lon": 22.6391
+      "lat": 41.0082,
+      "lon": 28.9784
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -341,7 +353,8 @@
   },
   {
     "id": 30,
-    "title": "5'inci Kolordunun Selanik-Kılkış arasında yaptığı manevralara katılması. (Manevra, 20 Nisan 1911 akşamı sona ermiştir.)",
+    "title": "5'inci Kolordunun Selanik-Kılkış arasında yaptığı manevralara katılması.",
+    "description": "(Manevra, 20 Nisan 1911 akşamı sona ermiştir.)",
     "date": "1911-04-19T00:00:00Z",
     "location": {
       "lat": 42.6977,
@@ -366,8 +379,8 @@
     "title": "İtalyanların Trablusgarp'ta Osmanlı Devleti'ne harp ilanı.",
     "date": "1911-09-29T00:00:00Z",
     "location": {
-      "lat": 40.2313,
-      "lon": 26.2765
+      "lat": 32.8829352,
+      "lon": 13.1677363
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -377,8 +390,8 @@
     "title": "Trablusgarp'a gönüllü gitmek üzere gizlice arkadaşlarıyla beraber İstanbul'dan ayrılması.",
     "date": "1911-10-15T00:00:00Z",
     "location": {
-      "lat": 40.2313,
-      "lon": 26.2765
+      "lat": 32.8829352,
+      "lon": 13.1677363
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -388,8 +401,8 @@
     "title": "Binbaşılığa terfi etmesi.",
     "date": "1911-11-27T00:00:00Z",
     "location": {
-      "lat": 40.2313,
-      "lon": 26.2765
+      "lat": 41.0082,
+      "lon": 28.9784
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -399,8 +412,8 @@
     "title": "Tobruk Bölgesi Komutanlığı görevini yürüten Ethem Paşa'nın yerine Tobruk Bölgesi Komutanlığına getirilmesi.",
     "date": "1911-12-19T00:00:00Z",
     "location": {
-      "lat": 40.2313,
-      "lon": 26.2765
+      "lat": 32.0730831,
+      "lon": 23.9139912
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -410,19 +423,20 @@
     "title": "Derne'ye gelmesi ve Derne Doğu Kolu Komutanlığını üzerine alması.",
     "date": "1911-12-30T00:00:00Z",
     "location": {
-      "lat": 37.91,
-      "lon": 40.23
+      "lat": 32.7587972,
+      "lon": 22.6224084
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 37,
-    "title": "'Tâbiye Tatbikat Seyahatı' adlı kitabının Selanik'te yayımlanması. (Bu küçük kitap, 5'inci Kolordunun 19-20 Nisan 1911 günleri yaptığı ve  de katıldığı bir askeri tatbikatın not ve krokilerinden oluşmuştur.)",
+    "title": "'Tâbiye Tatbikat Seyahatı' adlı kitabının Selanik'te yayımlanması.",
+    "description": "(Bu küçük kitap, 5'inci Kolordunun 19-20 Nisan 1911 günleri yaptığı ve  de katıldığı bir askeri tatbikatın not ve krokilerinden oluşmuştur.)",
     "date": "1911T00:00:00Z",
     "location": {
-      "lat": 38.4,
-      "lon": 42.1
+      "lat": 42.6977,
+      "lon": 23.3219
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -432,8 +446,8 @@
     "title": "Derne Komutanlığına atanması.",
     "date": "1912-03T00:00:00Z",
     "location": {
-      "lat": 36.2021,
-      "lon": 36.1612
+      "lat": 32.7587972,
+      "lon": 22.6224084
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -454,8 +468,8 @@
     "title": "Balkan Harbi'nin başlaması.",
     "date": "1912-10T00:00:00Z",
     "location": {
-      "lat": 36.2021,
-      "lon": 36.1612
+      "lat": 42,
+      "lon": 22
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -465,8 +479,8 @@
     "title": "Gelibolu'da bulunan Bahr-i Sefîd (Çanakkale) Boğazı Kuva-yı Mürettebe Komutanlığına atanması.",
     "date": "1912-11T00:00:00Z",
     "location": {
-      "lat": 41.0082,
-      "lon": 28.9784
+      "lat": 40.4145591,
+      "lon": 26.6619287
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -476,8 +490,8 @@
     "title": "Edirne'nin Bulgarların eline geçmesi.",
     "date": "1913-03T00:00:00Z",
     "location": {
-      "lat": 41.0082,
-      "lon": 28.9784
+      "lat": 41.6688737,
+      "lon": 26.5527249
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -485,11 +499,12 @@
 
   {
     "id": 43,
-    "title": "Osmanlı Devleti'nin Balkan devletleri ile Londra Barış Antlaşması'nı imzalaması. (Bu antlaşma ile Osmanlı Devleti Midye - Enez hattını sınır olarak kabul etmiş, Edirne'yi Bulgaristan'a bırakmıştır.)",
+    "title": "Osmanlı Devleti'nin Balkan devletleri ile Londra Barış Antlaşması'nı imzalaması.",
+    "description": "(Bu antlaşma ile Osmanlı Devleti Midye - Enez hattını sınır olarak kabul etmiş, Edirne'yi Bulgaristan'a bırakmıştır.)",
     "date": "1913-05-30T00:00:00Z",
     "location": {
-      "lat": 41.0082,
-      "lon": 28.9784
+      "lat": 41.6688737,
+      "lon": 26.5527249
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -499,8 +514,8 @@
     "title": "Edirne'nin Bulgarlardan geri alınması.",
     "date": "1913-07T00:00:00Z",
     "location": {
-      "lat": 38.4127,
-      "lon": 27.1384
+      "lat": 41.6688737,
+      "lon": 26.5527249
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -521,8 +536,8 @@
     "title": "Sofya Ataşe Militerliğine atanması.",
     "date": "1913-10-27T00:00:00Z",
     "location": {
-      "lat": 41.2928,
-      "lon": 36.3313
+      "lat": 42.6954026,
+      "lon": 23.2415466
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -532,8 +547,8 @@
     "title": "Sofya'ya gelmesi ve ataşe militerlik görevine başlaması.",
     "date": "1913-10-20T00:00:00Z",
     "location": {
-      "lat": 40.6533,
-      "lon": 35.833
+      "lat": 42.6954026,
+      "lon": 23.2415466
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -543,8 +558,8 @@
     "title": "Sofya Ataşe Militerliğine ilâveten Bükreş, Belgrad ve Çetine Ataşe Militerliklerini de yürütme görevi verilmesi.",
     "date": "1914-01-11T00:00:00Z",
     "location": {
-      "lat": 39.9086,
-      "lon": 41.2769
+      "lat": 42.6954026,
+      "lon": 23.2415466
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -554,8 +569,8 @@
     "title": "Yarbaylığa terfi etmesi.",
     "date": "1914-03-01T00:00:00Z",
     "location": {
-      "lat": 39.7477,
-      "lon": 37.0179
+      "lat": 42.6954026,
+      "lon": 23.2415466
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -565,8 +580,8 @@
     "title": "Birinci Dünya Savaşı'nın başlaması.",
     "date": "1914-10-29T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 42.6954026,
+      "lon": 23.2415466
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -576,8 +591,8 @@
     "title": "3'üncü Kolorduya bağlı olarak Tekirdağ'da teşkil edilecek 19'uncu Tümen Komutanlığına atanması.",
     "date": "1915-01-20T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0752758,
+      "lon": 26.7606859
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -587,8 +602,8 @@
     "title": "Tekirdağ'a gelişi ve 19'uncu Tümeni kurma çalışmalarına başlaması.",
     "date": "1915-02-02T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0752758,
+      "lon": 26.7606859
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -598,8 +613,8 @@
     "title": "Tekirdağ'daki 19'uncu Tümen Komutanlığının Maydos (Eceabat)'a nakli ve  19'uncu Tümen Komutanlığı üzerinde olmak üzere Maydos Bölgesi Komutanı olarak görevini sürdürmesi.",
     "date": "1915-02-25T00:00:00Z",
     "location": {
-      "lat": 39.7333,
-      "lon": 30.1833
+      "lat": 40.1801025,
+      "lon": 26.3509787
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -609,19 +624,20 @@
     "title": "Çanakkale Boğazı'nı geçmeye teşebbüs eden İngiliz ve Fransız donanmalarının, ağır zayiat vererek bu teşebbüslerinde başarısız oluşu.",
     "date": "1915-03-18T00:00:00Z",
     "location": {
-      "lat": 39.7333,
-      "lon": 30.1833
+      "lat": 40.4145591,
+      "lon": 26.6619287
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 55,
-    "title": "Çanakkale cephesinin önem kazanması üzerine, Gelibolu'da 5'inci Ordunun kurulması kararı ve komutanlığına Alman Generali Mareşal Liman von Sanders'in atanması. (Liman von Sanders 26 Mart 1915 günü komutayı ele almak üzere Gelibolu'ya gelmiştir.)",
+    "title": "Çanakkale cephesinin önem kazanması üzerine, Gelibolu'da 5'inci Ordunun kurulması kararı ve komutanlığına Alman Generali Mareşal Liman von Sanders'in atanması.",
+    "description": "(Liman von Sanders 26 Mart 1915 günü komutayı ele almak üzere Gelibolu'ya gelmiştir.)",
     "date": "1915-03-24T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.4145591,
+      "lon": 26.6619287
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -631,8 +647,8 @@
     "title": "Komutasındaki 19'uncu Tümenin, 5'inci Ordunun genel ihtiyatını oluşturmak üzere Bigalı'ya gönderilmesi.",
     "date": "1915-04T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.2355886,
+      "lon": 26.3582045
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -642,8 +658,8 @@
     "title": "Çanakkale'de İngilizlerin, Fransız kuvvetleri ve ANZAC Kolordusu ile beraber Arıburnu, Seddülbahir ve Kumkale sahillerinden çıkarma hareketine başlaması; Bu kuvvetlerin, Bigali'den harekete geçen Mustafa Kemal komutasındaki 19'uncu Tümen kuvvetlerinin taarruzu ile geri çekilmeye mecbur edilmesi.",
     "date": "1915-04-25T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.2355886,
+      "lon": 26.3582045
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -653,8 +669,8 @@
     "title": "Albaylığa terfi etmesi.",
     "date": "1915-06-01T00:00:00Z",
     "location": {
-      "lat": 38.25,
-      "lon": 30.25
+      "lat": 40.2355886,
+      "lon": 26.3582045
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -664,8 +680,8 @@
     "title": "Harp Madalyası verilmesi.",
     "date": "1915-07-15T00:00:00Z",
     "location": {
-      "lat": 38.25,
-      "lon": 30.25
+      "lat": 40.2355886,
+      "lon": 26.3582045
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -675,8 +691,8 @@
     "title": "5'inci Ordu Komutanı General Liman von Sanders'in emri ile- Anafartalar Grubu Komutanlığına getirilmesi.",
     "date": "1915-08-08T00:00:00Z",
     "location": {
-      "lat": 38.25,
-      "lon": 30.25
+      "lat": 40.1591672,
+      "lon": 26.4091354
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -686,8 +702,8 @@
     "title": "Komutasındaki kuvvetlerin, Anafartalar bölgesinde İngilizlere taarruzu; düşmanın, tepelerden tekrar çıkarma yaptığı kıyılara itilmesi.",
     "date": "1915-08-09T00:00:00Z",
     "location": {
-      "lat": 38.4127,
-      "lon": 27.1384
+      "lat": 40.1591672,
+      "lon": 26.4091354
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -697,8 +713,8 @@
     "title": "Komutasındaki kuvvetlerin, Conkbayırı'nda İngilizlere taarruzu ve bu taarruzun başarı ile sonuçlanması. (Bu muharebe esnasında,  kalbini hedef alan bir şarapnel parçasının, göğüs cebindeki saati parçalayarak geri dönmesi sonucu, kendisi mutlak bir ölümden kurtulmuştur.)",
     "date": "1915-08-10T00:00:00Z",
     "location": {
-      "lat": 40.3759,
-      "lon": 28.8824
+      "lat": 40.2503121,
+      "lon": 26.3052365
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -708,8 +724,8 @@
     "title": "Anafartalar Grubu Komutanlığındaki üstün başarıları sebebiyle 'Muharebe Gümüş Liyakat Madalyası' verilmesi.",
     "date": "1915-09-01T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.2503121,
+      "lon": 26.3052365
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -719,8 +735,8 @@
     "title": "İngilizlerin, işgal ettikleri siperleri boşaltarak gece Anafartalar - Arıburnu bölgesinden gizli olarak çekilmeleri.",
     "date": "1915-12-19T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.2503116,
+      "lon": 26.2975117
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -730,8 +746,8 @@
     "title": "'Anafartalar Grubu Komutanlığı' dönemindeki üstün başarıları sebebiyle 'Muharebe Altın Liyakat Madalyası' verilmesi.",
     "date": "1916-01-17T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 40.2503116,
+      "lon": 26.2975117
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -741,8 +757,8 @@
     "title": "Karargâhı Edirne'de bulunan 16'ncı Kolordu Komutanlığına atanması.",
     "date": "1916-01-27T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.6688737,
+      "lon": 26.5527249
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -752,8 +768,8 @@
     "title": "Komuta ettiği 16'ncı Kolordu Karargâhının Başkomutanlık Vekâletince Diyarbakır'a nakledilme kararı.",
     "date": "1916-03-10T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.6688737,
+      "lon": 26.5527249
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -763,8 +779,8 @@
     "title": "16'ncı Kolordu Karargâhının Edirne'den Diyarbakır'a kaydırılması kararı üzerine- Edirne'den İstanbul'a gelmesi.",
     "date": "1916-03-11T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0082,
+      "lon": 28.9784
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -774,8 +790,8 @@
     "title": "Diyarbakır'daki görevine gitmek üzere İstanbul'dan ayrılması.",
     "date": "1916-03-15T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0082,
+      "lon": 28.9784
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -785,8 +801,8 @@
     "title": "Diyarbakır'a gelerek 16'ncı Kolordunun komutasını üzerine alması.",
     "date": "1916-03-26T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -796,8 +812,8 @@
     "title": "Mirlivalığa (tümgeneralliğe) terfi etmesi.",
     "date": "1916-04-01T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -807,8 +823,8 @@
     "title": "Komuta ettiği 16'ncı Kolordu Karargâhının Diyarbakır'dan Silvan'a nakledilmesi.",
     "date": "1916-06-15T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -818,8 +834,8 @@
     "title": "Diyarbakır'dan Silvan'a gelmesi.",
     "date": "1916-06-16T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 38.1443441,
+      "lon": 40.9739482
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -829,8 +845,8 @@
     "title": "Komutasındaki kuvvetlerin Bitlis ve Muş yönünde taarruza geçmesi.",
     "date": "1916-08-02T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 38.4044977,
+      "lon": 42.09232
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -840,8 +856,8 @@
     "title": "Komutasındaki kuvvetlerin Muş'u düşman işgalinden kurtarması.",
     "date": "1916-08-07T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 38.7508567,
+      "lon": 41.4652661
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -851,8 +867,8 @@
     "title": "Komutasındaki kuvvetlerin Bitlis'i düşman işgalinden kurtarması.",
     "date": "1916-08-08T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 38.4044977,
+      "lon": 42.09232
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -862,8 +878,8 @@
     "title": "Ahmet İzzet Paşa'nın izinli olarak bir süre İstanbul'a gitmesi üzerine 2'nci Ordu Komutan Vekilliğine atanması. Mustafa Kemal ATATÜRK'e Muş ve Bitlis cephelerindeki başarıları sebebiyle 'İkinci Rütbe'den Mecidî Nişanı' verilmesi.",
     "date": "1916-12-12T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 38.4044977,
+      "lon": 42.09232
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -873,8 +889,8 @@
     "title": "Sekerat (Diyarbakır'ın Palu kazasına bağlı bir bucak merkezi)'ta 2'inci Ordu Karargâhına gelerek komutan vekilliği görevini üzerine alması.",
     "date": "1916-12-16T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -884,8 +900,8 @@
     "title": "Hicaz Kuvve-i Seferiye Komutanlığına atanması.",
     "date": "1917-02-14T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -895,8 +911,8 @@
     "title": "Şam'a gitmek üzere Diyarbakır'dan ayrılması.",
     "date": "1917-02-21T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -906,8 +922,8 @@
     "title": "Şam'a gelmesi.",
     "date": "1917-02-26T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 33.5073779,
+      "lon": 36.1270068
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -917,8 +933,8 @@
     "title": "Hicaz Kuvve-i Seferiye Komutanlığının kaldırılması üzerine 2'nci Ordu Komutanlığına atanması.",
     "date": "1917-03-05T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 33.5073779,
+      "lon": 36.1270068
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -928,8 +944,8 @@
     "title": "2'nci Ordu Komutanı olarak Şam'dan Diyarbakır'a dönmesi.",
     "date": "1917-03-12T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -939,8 +955,8 @@
     "title": "Yıldırım Orduları Grubu Komutanlığına bağlı 7'nci Ordu Komutanlığına atanması.",
     "date": "1917-07-05T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -950,8 +966,8 @@
     "title": "7'nci Ordu Karargâhını oluşturmak üzere Enver Paşa tarafından çağırılması üzerine- Diyarbakır'dan İstanbul'a hareketi.",
     "date": "1917-07-10T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 37.9227853,
+      "lon": 40.1214785
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -961,8 +977,8 @@
     "title": "Diyarbakır'dan İstanbul'a gelmesi.",
     "date": "1917-07-16T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -972,8 +988,8 @@
     "title": "7'nci Ordu Komutanlığı görevine başlamak üzere İstanbul'dan Halep'e hareketi. (7'nci Ordu Karargâhı Halep'in Aziziye mevkiinde idi.)",
     "date": "1917-08-15T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -983,41 +999,42 @@
     "title": "Halep'ten -İstanbul'da bulunan- Bahriye Nazırı ve 4'üncü Ordu Komutanı Cemal Paşa'ya, Sina Cephesi hakkındaki düşünce ve önerilerini bildiren geniş raporu.",
     "date": "1917-09-20T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 89,
-    "title": "Yıldırım Orduları Komutanı Mareşal Falkenhein'le anlaşmazlık sonucu- 7'nci Ordu Komutanlığından istifa etmesi.",
+    "title": "-Yıldırım Orduları Komutanı Mareşal Falkenhein'le anlaşmazlık sonucu- 7'nci Ordu Komutanlığından istifa etmesi.",
     "date": "1917-10-06T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 90,
-    "title": "Tekrar Diyarbakır'da bulunan 2'nci Ordu Komutanlığına atanması. (Mustafa Kemal, bu atamayı kabul etmediğinden işlem yürürlülük kazanmamış, kendisi 2'nci Ordu Komutanı sıfatıyla izinli sayılarak Halep'ten İstanbul'a gelmiştir.)",
+    "title": "Tekrar Diyarbakır'da bulunan 2'nci Ordu Komutanlığına atanması.",
+    "description": "(Mustafa Kemal, bu atamayı kabul etmediğinden işlem yürürlülük kazanmamış, kendisi 2'nci Ordu Komutanı sıfatıyla izinli sayılarak Halep'ten İstanbul'a gelmiştir.)",
     "date": "1917-10-09T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 91,
-    "title": "Halep'ten İstanbul'a dönmesi. (Bazı kaynaklarda  İstanbul'a dönmesi ekim ortası veya ekim sonu olarak gösterilmektedir.)",
+    "title": "Halep'ten İstanbul'a dönmesi. (Bazı kaynaklarda  İstanbul'a dönmesi Ekim ortası veya Ekim sonu olarak gösterilmektedir.)",
     "date": "1917-10-15T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1027,8 +1044,8 @@
     "title": "İstanbul'da Genel Karargâhta görevlendirilmesi.",
     "date": "1917-11-07T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1038,8 +1055,8 @@
     "title": "Veliaht Vahdettin Efendi'nin maiyetinde Almanya'ya gitmek üzere İstanbul'dan ayrılması.",
     "date": "1917-12-15T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1049,8 +1066,8 @@
     "title": "O güne kadarki üstün başarıları sebebiyle 'Birinci Rütbe'den Kılıçlı Mecidî Nişanı' verilmesi.",
     "date": "1917-12-16T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1060,8 +1077,8 @@
     "title": "Almanya seyahatinden İstanbul'a dönmesi.",
     "date": "1918-01-04T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1071,19 +1088,20 @@
     "title": "Alman İmparatoru tarafından 'Birinci Rütbeden Kılıçlı Cordon de Prusse Nişanı' verilmesi.",
     "date": "1918-02-19T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 97,
-    "title": "Böbrek rahatsızlığı sebebiyle tedavi için İstanbul'dan Viyana'ya hareketi. (Viyana ve Karlsbad'da 2 ay kadar tedavi görmüştür.)",
+    "title": "Böbrek rahatsızlığı sebebiyle tedavi için İstanbul'dan Viyana'ya hareketi.",
+    "description": "(Viyana ve Karlsbad'da 2 ay kadar tedavi görmüştür.)",
     "date": "1918-05T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 48.2202037,
+      "lon": 16.2972426
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1093,8 +1111,8 @@
     "title": "Viyana'dan İstanbul'a dönmesi. (Bu tarih bazı kaynaklarda 4 Ağustos 1918 olarak gösterilmiştir.)",
     "date": "1918-08-02T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1104,8 +1122,8 @@
     "title": "Mareşal Falkenhein'ın yerine Yıldırım Orduları Grubu Komutanlığı'na getirilmiş olan Mareşal Liman von Sanders'in emrindeki 7'nci Orduya tekrar komutan olarak atanması.",
     "date": "1918-08-07T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1115,8 +1133,8 @@
     "title": "Nablus'taki 7'nci Ordu Karargâhına gelerek komutayı ele alması.",
     "date": "1918-09-01T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 32.2243079,
+      "lon": 35.2270797
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1126,30 +1144,32 @@
     "title": "İngiliz birliklerinin Filistin Cephesi'nde genel taarruza başlaması.",
     "date": "1918-09-19T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 32.2243079,
+      "lon": 35.2270797
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 102,
-    "title": "Gelişen İngiliz taarruzu karşısında 7'nci Orduyu Şeria Nehri'nin doğusuna alma kararı. (19 Eylül tarihli İngiliz taarruzu karşısında 8'inci Ordu cephesinin yarılması üzerine 4'üncü ve 7'nci Ordular da düşman tarafından çevrilme tehlikesinde kalmışlardı. Mustafa Kemal bu durumda, uygun koşullar altında muharebeye devam etmek için 20 Eylül'de birliklerine Şeria Nehri'nin doğusuna çekilme emrini vermiştir. Bu karar üzerine, 7'nci Ordu birlikleri düzenini ve savaş gücünü bozmadan Rayak'a, oradan da Halep'e çekilmiştir.)",
+    "title": "Gelişen İngiliz taarruzu karşısında 7'nci Orduyu Şeria Nehri'nin doğusuna alma kararı.",
+    "description": "(19 Eylül tarihli İngiliz taarruzu karşısında 8'inci Ordu cephesinin yarılması üzerine 4'üncü ve 7'nci Ordular da düşman tarafından çevrilme tehlikesinde kalmışlardı. Mustafa Kemal Atatürk bu durumda, uygun koşullar altında muharebeye devam etmek için 20 Eylül'de birliklerine Şeria Nehri'nin doğusuna çekilme emrini vermiştir. Bu karar üzerine, 7'nci Ordu birlikleri düzenini ve savaş gücünü bozmadan Rayak'a, oradan da Halep'e çekilmiştir.)",
     "date": "1918-09-20T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 32.4653659,
+      "lon": 34.9063649
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 103,
-    "title": "Olağanüstü hizmetleri ve ordusunu imhadan kurtardığı için fahri yaverlik unvanı verilmesi. (Bu tarih, bazı kaynaklarda 21 Eylül, bazı kaynaklarda ise 23 Eylül olarak belirtilmiştir.)",
+    "title": "Olağanüstü hizmetleri ve ordusunu imhadan kurtardığı için fahri yaverlik unvanı verilmesi.",
+    "description": "(Bu tarih, bazı kaynaklarda 21 Eylül, bazı kaynaklarda ise 23 Eylül olarak belirtilmiştir.)",
     "date": "1918-09-22T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 32.4653659,
+      "lon": 34.9063649
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1159,8 +1179,8 @@
     "title": "İngilizlerin Halep'e girmesi. Mustafa Kemal komutasındaki 7'nci Ordu birliklerinin İngiliz taarruzlarını Halep'in kuzeyinde durdurması ve düşmanın bu hattı geçmesine imkân verilmemesi.",
     "date": "1918-10-26T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1170,8 +1190,8 @@
     "title": "Osmanlı Devleti ile İtilaf Devletleri arasında Mondros Ateşkes Antlaşması'nın imzalanması.",
     "date": "1918-10-30T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1181,19 +1201,19 @@
     "title": "Mareşal Liman von Sanders'in, Yıldırım Orduları Grup Komutanlığını Mustafa Kemal ATATÜRK'e devretmesi.",
     "date": "1918-10-31T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.2064064,
+      "lon": 37.0661848
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
     "id": 107,
-    "title": "Yıldırım Orduları Grubu Komutanlığı ile 7'nci Ordu Karargâhının kaldırılması ve  Harbiye Nezareti emrine verilmesi.",
+    "title": "Yıldırım Orduları Grubu Komutanlığı ile 7'nci Ordu Karargâhının kaldırılması ve Harbiye Nezareti emrine verilmesi.",
     "date": "1918-11T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.9973865,
+      "lon": 35.2056667
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1203,8 +1223,8 @@
     "title": "Adana'dan trenle İstanbul'a hareketi.",
     "date": "1918-11-10T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 36.9973865,
+      "lon": 35.2056667
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1214,8 +1234,8 @@
     "title": "Adana'dan İstanbul'a gelmesi.",
     "date": "1918-11-13T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -1225,8 +1245,8 @@
     "title": "1914 yılında yazdığı 'Zabit ve Kumandan İle Hasbihâl' adlı eserinin İstanbul'da yayımlanması.",
     "date": "1918-12T00:00:00Z",
     "location": {
-      "lat": 39.9334,
-      "lon": 32.8597
+      "lat": 41.0052041,
+      "lon": 28.8473739
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"

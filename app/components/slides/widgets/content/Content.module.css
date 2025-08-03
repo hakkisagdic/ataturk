@@ -30,7 +30,6 @@
   margin: 0;
   padding: 0;
   pointer-events: all;
-  text-justify: inter-cluster;
 }
 
 .date {
@@ -95,14 +94,7 @@
   width: 100dvw;
   position: absolute;
   cursor: none;
-  pointer-events: none;
   z-index: -1;
-}
-
-@media screen and (max-width: 600px) {
-  .images {
-    margin-bottom: 10rem;
-  }
 }
 
 .modal {
@@ -138,4 +130,15 @@
   top: 20px;
   right: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .images {
+    margin-bottom: 10rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .image {
+    pointer-events: all;
+  }
 }
