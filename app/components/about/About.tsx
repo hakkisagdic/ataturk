@@ -43,12 +43,11 @@ export default function About() {
 
         <Contributors />
 
-        <h4>Teşekkürler</h4>
-        <p>
-          Projeyi hayata geçirmem için yardımcı olan biricik karım{' '}
-          <strong>İrem Çiftler Gayret</strong>
-          &#39;e teşekkür ederim.
-        </p>
+        <h4>Teşekkür</h4>
+        <small>
+          Projeyi hayata geçirmem için yardımcı olan biricik karım İrem Çiftler Gayret &#39;e
+          teşekkür ederim.
+        </small>
       </div>
     </div>
   )
