@@ -12,8 +12,8 @@
 
 .logo {
   border-radius: 1rem;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
 }
 
 .title {
@@ -21,17 +21,15 @@
   color: #000000;
   text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.9);
   animation: zoomOut 1s ease-in-out;
+  font-weight: 400;
 }
 
 @media (max-width: 600px) {
   .link {
     width: 100%;
     border-bottom-right-radius: 0;
-  }
-
-  .logo {
-    width: 50px;
-    height: 50px;
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -30,13 +30,11 @@ function MapCenterUpdater({ location }: MapProps) {
     if (!map) return
 
     if (prevLocation.current) {
-      // önceki konumdan yeni konuma uç
-      map.flyTo([location.lat + 1.1, location.lon], map.getZoom(), {
+      map.flyTo([location.lat + 1.2, location.lon], map.getZoom(), {
         animate: true,
-        duration: 0.6,
+        duration: 0.7,
       })
     } else {
-      // sadece ilk mount'ta direkt konum ayarla
       map.setView([location.lat, location.lon], map.getZoom(), { animate: false })
     }
 
