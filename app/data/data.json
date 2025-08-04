@@ -66,11 +66,11 @@
     "images": [
       {
         "url": "/images/karne.gif",
-        "alt": "Karne"
+        "alt": "Öğrenim Belgesi"
       },
       {
         "url": "/images/sinav-sonuc-belgesi.jpg",
-        "alt": "Sınav sonuç belgesi"
+        "alt": "Öğrenim Belgesi"
       }
     ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
