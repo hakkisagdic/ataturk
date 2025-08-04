@@ -42,7 +42,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 200px));
   justify-content: center;
   gap: 1rem;
-  max-height: 50dvh;
   overflow-y: auto;
   padding: 1rem;
 }
@@ -133,12 +132,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .images {
-    margin-bottom: 10rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-
-  .image {
-    pointer-events: all;
+  .content {
+    top: 0;
+    position: relative;
   }
 }
