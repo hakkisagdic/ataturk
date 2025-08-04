@@ -1250,5 +1250,60 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 111,
+    "title": "9'uncu Ordu Kıtaatı Müfettişliğine atanması.",
+    "date": "1919-04-30T00:00:00Z",
+    "location": {
+      "lat": 41.0052041,
+      "lon": 28.8473739
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 112,
+    "title": "Yunanların İzmir'e çıkması.",
+    "date": "1919-05-15T00:00:00Z",
+    "location": {
+      "lat": 38.4175597,
+      "lon": 26.914911
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 113,
+    "title": "Anadolu'ya geçmek üzere Bandırma Vapuru ile İstanbul'dan ayrılması.",
+    "date": "1919-05-16T00:00:00Z",
+    "location": {
+      "lat": 41.0052041,
+      "lon": 28.8473739
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 114,
+    "title": "Samsun'a çıkışı.",
+    "date": "1919-05-19T00:00:00Z",
+    "location": {
+      "lat": 41.2914662,
+      "lon": 36.2724991
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 115,
+    "title": "Samsun'dan Sadarete raporu: Millet birlik olup hâkimiyet esasını, Türklük duygusunu hedef kabul etmiştir.",
+    "date": "1919-05-22T00:00:00Z",
+    "location": {
+      "lat": 41.2914662,
+      "lon": 36.2724991
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   }
 ]
