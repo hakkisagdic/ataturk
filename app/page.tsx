@@ -2,12 +2,12 @@
 
 import About from './components/about/About'
 import Header from './components/header/Header'
-import Slides from './components/slides/Slides'
 import Timeline from './components/timeline/Timeline'
 import data from './data/data.json'
 import dynamic from 'next/dynamic'
 import { useSearchParams } from 'next/navigation'
 import { useMemo } from 'react'
+import Content from './components/content/Content'
 
 export default function Home() {
   const searchParams = useSearchParams()
@@ -38,7 +38,7 @@ export default function Home() {
       />
 
       <Header />
-      <Slides />
+      <Content />
       <Timeline />
     </>
   )
