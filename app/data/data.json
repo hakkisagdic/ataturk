@@ -1305,5 +1305,231 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 116,
+    "title": "Samsun'dan Havza'ya gelmesi.",
+    "date": "1919-05-25T00:00:00Z",
+    "location": {
+      "lat": 40.9735932,
+      "lon": 35.667075
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 117,
+    "title": "Havza'dan Amasya'ya gelmesi.",
+    "date": "1919-06-11T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 118,
+    "title": "İstanbul'da bulunan bazı tanınmış kimselere Amasya'dan mektup göndererek onları Millî Mücadele'ye davet etmesi.",
+    "date": "1919-06-21T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 119,
+    "title": "Amasya'dan Anadolu'da mülkî ve askerî makamlara genelgesi.",
+    "description": "'Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir. Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır. ...'",
+    "date": "1919-06-21T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 120,
+    "title": "Erzurum'a gelmesi, halk ve asker tarafından sevgi gösterileriyle karşılanması.",
+    "date": "1919-07-03T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 121,
+    "title": "Harbiye Nezaretine ve Padişaha resmî vazifesiyle beraber askerlik mesleğinden istifa ettiğini bildiren telgrafı.",
+    "date": "1919-07-08T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 122,
+    "title": "Orduya, vilayetlere ve millete resmî göreviyle beraber askerlik mesleğinden istifa ettiğini bildiren genelgesi",
+    "description": "'Bundan sonra mukaddes millî gayemiz için her türlü fedakârlıkla çalışmak üzere sine-i millette bir ferd-i mücahit suretiyle bulunmakta olduğumu arz ve ilan ederim.'",
+    "date": "1919-07-09T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 123,
+    "title": "Askerlikten istifası ve Doğu İlleri Müdafaa-i Hukuk-u Milliye Cemiyetinin Erzurum Şubesinin başına geçmesinin Erzurum'da yayımlanan Albayrak Gazetesi'nde halka ilanı",
+    "description": "'... Mustafa Kemal Paşa Hazretlerinin istifanamesi bir azim ve iman vesikasıdır. Millette, henüz eski kanın sönmemiş olduğunu gösterir muazzam delildir. Anafartalar'da, millî şerefi, tarihin bugünkü nesilden beklemekte olduğu mukaddes vazifeyi yükselten ve yücelten bu muhterem komutanı bugün de Millî Mücadele'nin başında görmek mutlu bir görüntüdür.'",
+    "date": "1919-07-14T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 124,
+    "title": "Erzurum Kongresi'nin açılması ve Mustafa Kemal'in Kongre'ye Başkan seçilmesi.",
+    "date": "1919-07-23T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 125,
+    "title": "Erzurum Kongresi'nin Mustafa Kemal'in kısa bir konuşmasıyla son bulması.",
+    "description": "'Milletimizin kurtuluş ümidi ile çırpındığı en heyecanlı bir zamanda fedakâr muhterem heyetiniz her türlü eziyetlere katlanarak burada, Erzurum'da toplandı. Hassas ve soylu bir ruh ve pek sağlam bir iman ile vatan ve milletimizin kurtuluşuna ait esaslı kararlar aldı. Bilhassa bütün cihana karşı milletimizin mevcudiyetini ve birliğini gösterdi. Tarih bu kongremizi şüphesiz ender ve büyük bir eser olarak kaydedecektir.' Mustafa Kemal'in Erzurum Kongresi tarafından Heyet-i Temsiliye Reisliği'ne seçilmesi.",
+    "date": "1919-08-07T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 126,
+    "title": "Mustafa Kemal'in askerlik mesleğinden çıkarılmasına, sahip olduğu madalya ve nişanların geri alınmasına ve fahri yaverlik unvanının kaldırılmasına dair irade-i seniye çıkması.",
+    "date": "1919-08-09T00:00:00Z",
+    "location": {
+      "lat": 39.9118927,
+      "lon": 41.2223171
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 127,
+    "title": "Mustafa Kemal'in Sivas'a gelmesi, candan gösterilerle karşılanması.",
+    "date": "1919-09-02T00:00:00Z",
+    "location": {
+      "lat": 39.7483892,
+      "lon": 36.95471
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 128,
+    "title": "Sivas Kongresi'nin açılması ve Mustafa Kemal'in Sivas Kongresi başkanlığına seçilmesi.",
+    "date": "1919-09-04T00:00:00Z",
+    "location": {
+      "lat": 39.7483892,
+      "lon": 36.95471
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 129,
+    "title": "Sivas Kongresi'nin son bulması. 'Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti' teşkil edildiğine dair yazının Mustafa Kemal imzası ile Sivas vilayetine verilmesi.",
+    "date": "1919-09-11T00:00:00Z",
+    "location": {
+      "lat": 39.7483892,
+      "lon": 36.95471
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 130,
+    "title": "Heyet-i Temsiliye adına millete beyannamesi.",
+    "description": "'En ağır tarihî şartlar altında bile millî vakarından ve herkesin hukukuna saygı göstermedeki mazisinden gelen hasletlerinden zerre kadar ayrılmamış olan milletimizin bundan sonra da aynı tarz ve harekette sabit kalacağından ve bu suretle bu mübarek topraklara sahip olmaktaki uygarlık yeteneğini bütün cihana onaylatacağından şüphe yoktur.'",
+    "date": "1919-10-07T00:00:00Z",
+    "location": {
+      "lat": 39.7483892,
+      "lon": 36.95471
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 131,
+    "title": "Sivas'tan Amasya'ya gelmesi.",
+    "date": "1919-10-18T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 132,
+    "title": "Amasya'da beraberinde Rauf ve Bekir Sami Beyler olmak üzere İstanbul Hükûmetinin Bahriye Nazırı Salih Paşa ile görüşmelere başlaması (Amasya Mülakatı)",
+    "date": "1919-10-20T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 133,
+    "title": "Amasya Görüşmeleri (Amasya Mülakatı)'nin sona ermesi.",
+    "date": "1919-10-22T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 134,
+    "title": "İstanbul'da yeniden toplanması kararlaştırılan Osmanlı Meclis-i Mebusanı için yapılan seçimlerde Erzurum milletvekilliğine seçilmesi.",
+    "date": "1919-11-07T00:00:00Z",
+    "location": {
+      "lat": 40.6544618,
+      "lon": 35.4192545
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
+  },
+  {
+    "id": 135,
+    "title": "Ankara'ya gelmesi ve büyük törenle karşılanması.",
+    "description": "(Mustafa Kemal, şehre girdikten sonra vali odasında bir müddet istirahat ederek çay içmiş, daha sonra 20'nci Kolorduyu ziyaret etmiş, buradan da kendisine ve arkadaşlarına ayrılan Ziraat Mektebine gelmiştir.) Mustafa Kemal'in bütün teşkilata, 'Ankara'ya geldiğini ve Heyet-i Temsiliye Merkezinin Ankara olduğunu' bildiren telgrafı.",
+    "date": "1919-11-07T00:00:00Z",
+    "location": {
+      "lat": 39.902959,
+      "lon": 32.4509541
+    },
+    "images": [],
+    "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   }
 ]
