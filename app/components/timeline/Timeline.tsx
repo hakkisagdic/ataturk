@@ -71,6 +71,7 @@ export default function Timeline() {
   }, [searchParams])
 
   useEffect(() => {
+    // Handle keyboard navigation for left and right arrows
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'ArrowLeft') {
         onGoPrev()
@@ -85,6 +86,26 @@ export default function Timeline() {
       window.removeEventListener('keydown', handleKeyDown)
     }
   }, [onGoPrev, onGoNext])
+
+  useEffect(() => {
+    // Handle horizontal scrolling with mouse wheel
+    const container = timelineContainerRef.current
+    if (!container) return
+
+    const handleWheel = (e: WheelEvent) => {
+      // Shift tuşuna basılmadıysa scroll yönünü yataya çevir
+      if (!e.shiftKey) {
+        e.preventDefault()
+        container.scrollLeft += e.deltaY
+      }
+    }
+
+    container.addEventListener('wheel', handleWheel, { passive: false })
+
+    return () => {
+      container.removeEventListener('wheel', handleWheel)
+    }
+  }, [])
 
   return (
     <section className={styles.timeline}>
