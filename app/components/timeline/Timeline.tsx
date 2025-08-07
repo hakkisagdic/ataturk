@@ -28,6 +28,7 @@ export default function Timeline() {
   const uniqueYears = Object.entries(groupedByYear).map(([year, items]) => ({
     year: year,
     ids: items.map((item) => item.id),
+    items,
   }))
 
   useEffect(() => {}, [searchParams])
@@ -114,25 +115,49 @@ export default function Timeline() {
       </button>
 
       <div className={styles.timelineContainer} ref={timelineContainerRef}>
-        {uniqueYears.map((item, index) => (
-          <button
-            onClick={onOpenId(item.ids[0])}
-            key={index}
-            className={`${styles.timelineItem} ${
-              item.ids.includes(Number(searchParams.get('id'))) ? styles.active : ''
-            }`}
-            aria-label={`Go to ${item.year} section`}
-            data-year={item.year}
-            type='button'
-            style={{
-              scrollSnapAlign: 'center',
-              scrollSnapStop: 'always',
-            }}
-          >
-            <div className={styles.timelineDate}>{item.year}</div>
-          </button>
-        ))}
+      {uniqueYears.map((item, index) => {
+        const activeId = Number(searchParams.get('id'))
+        const isActiveYear = item.ids.includes(activeId)
+
+        return (
+            <div
+                key={index}
+                role="button"
+                tabIndex={0}
+                onClick={() => onOpenId(item.ids[0])()}
+                className={`${styles.timelineItem} ${isActiveYear ? styles.active : ''}`}
+                aria-label={`Go to ${item.year} section`}
+                data-year={item.year}
+                style={{
+                  scrollSnapAlign: 'center',
+                  scrollSnapStop: 'always',
+                  cursor: 'pointer',
+                }}
+            >
+          <div className={styles.timelineDate}>{item.year}</div>
+
+          {isActiveYear && item.items.length > 1 && (
+              <div className={styles.dotsWrapper}>
+                {item.items.map((subItem) => (
+                    <span
+                        key={subItem.id}
+                        className={`${styles.dot} ${subItem.id === activeId ? styles.dotActive : ''}`}
+                        title={subItem.title}
+                        role="button"
+                        tabIndex={0}
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          onOpenId(subItem.id)()
+                        }}
+                    ></span>
+                ))}
+              </div>
+          )}
+        </div>
+          )
+        })}
       </div>
+
 
       <button className={styles.actionButton} onClick={onGoNext}>
         <Image src={chevronRight} alt='Sonraki' width={24} height={24} />
