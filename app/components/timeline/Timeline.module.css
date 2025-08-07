@@ -16,13 +16,12 @@
   margin-inline: auto;
   display: flex;
   gap: 1rem;
-  padding: 1.4rem;
+  padding: 1rem;
   border-radius: 3rem;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
   backdrop-filter: blur(1000px);
-  color: contrast(3);
 }
 
 .timelineItem {
@@ -113,16 +112,27 @@
   }
 }
 
-.dotsWrapper {
+.dotsWrapperFromTop {
   display: flex;
   justify-content: center;
   align-items: center;
   transform: scale(0.8);
+  position: absolute;
+  bottom: 75.5%;
+}
+
+.dotsWrapperFromBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0.8);
+  position: absolute;
+  top: 75%;
 }
 
 .dot {
-  width: 8px;
-  height: 8px;
+  width: .2rem;
+  height: .7rem;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
