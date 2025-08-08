@@ -1823,7 +1823,7 @@
     "title": "Batı Cephesi'nde Türk ordusunun Sakarya Nehri'nin doğusuna çekilmesi.",
     "date": "1921-07-25T00:00:00Z",
     "location": {
-      "lat": 39.7463489, 
+      "lat": 39.7463489,
       "lon": 32.4784766
     },
     "images": [],
@@ -1857,7 +1857,7 @@
     "title": "Yunan ordusunun taarruzu ve Sakarya Meydan Muharebesi'nin başlaması. (22 gün 22 gece devam etmiştir.)",
     "date": "1921-08-23T00:00:00Z",
     "location": {
-      "lat": 39.7463489, 
+      "lat": 39.7463489,
       "lon": 32.4784766
     },
     "images": [],
@@ -1869,7 +1869,7 @@
     "description": "Hatt-ı müdafaa yoktur, sath-ı müdafaa vardır. O satıh bütün vatandır. Vatanın her karış toprağı, vatandaşın kanıyla ıslanmadıkça terk olunamaz!",
     "date": "1921-08-26T00:00:00Z",
     "location": {
-      "lat": 39.7463489, 
+      "lat": 39.7463489,
       "lon": 32.4784766
     },
     "images": [],
@@ -1880,7 +1880,7 @@
     "title": "Sakarya Meydan Muharebesi'nin zaferle sonuçlanması.",
     "date": "1921-09-13T00:00:00Z",
     "location": {
-      "lat": 39.7463489, 
+      "lat": 39.7463489,
       "lon": 32.4784766
     },
     "images": [],
@@ -1918,7 +1918,6 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
-    
   },
   {
     "id": 170,
@@ -2003,7 +2002,7 @@
     "title": "Büyük Taarruz'un başlaması.",
     "date": "1922-08-26T00:00:00Z",
     "location": {
-      "lat": 38.5302528, 
+      "lat": 38.5302528,
       "lon": 30.5419824
     },
     "images": [],
@@ -2303,7 +2302,6 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
-    
   },
   {
     "id": 204,
@@ -2490,7 +2488,7 @@
     "title": "Mustafa Kemal'in, Kurtuluş'tan sonra İstanbul'a ilk gelişi ve coşkun şekilde karşılanması.",
     "date": "1927-07-01T00:00:00Z",
     "location": {
-      "lat": 41.0389940,
+      "lat": 41.038994,
       "lon": 29.0004438
     },
     "images": [],
@@ -2803,7 +2801,6 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
-    
   },
   {
     "id": 248,
@@ -2838,7 +2835,6 @@
     },
     "images": [],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
-    
   },
   {
     "id": 251,
@@ -2989,7 +2985,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 263,
+    "id": 264,
     "title": "Cumhurbaşkanlığı Genel Sekreterliğinin, Fransa'dan davet edilen Prof. Dr. Fissenger'in ATATÜRK'ü muayenesinden sonra ATATÜRK'ün hastalığı hakkında ilk resmî bildiri yayımlaması.",
     "description": "(Bu bildiride, Fissenger'in muayenesi sonucu ATATÜRK'ün sağlığında endişe verici bir durum olmadığının tespit edildiği ve kendisine 1,5 ay kadar istirahat tavsiyesinin yeterli görüldüğü belirtilmiştir.)",
     "date": "1938-03-30T00:00:00Z",
@@ -3001,7 +2997,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 264,
+    "id": 265,
     "title": "ATATÜRK'ün Ankara'dan İstanbul'a gelmesi. (Ölüm tarihine kadar İstanbul'da kalmıştır.)",
     "date": "1938-05-27T00:00:00Z",
     "location": {
@@ -3012,7 +3008,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 265,
+    "id": 266,
     "title": "ATATÜRK'ün Dolmabahçe Sarayı'nda vasiyetini yazması. (Vasiyetname, 6 Eylül 1938 günü Dolmabahçe Sarayı'na çağırılan İstanbul Altıncı Noterine ATATÜRK tarafından teslim edilmiştir.)",
     "date": "1938-09-05T00:00:00Z",
     "location": {
@@ -3023,7 +3019,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 266,
+    "id": 267,
     "title": "ATATÜRK'ün ilk ağır komaya girmesi.",
     "date": "1938-10-16T00:00:00Z",
     "location": {
@@ -3034,7 +3030,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 267,
+    "id": 268,
     "title": "ATATÜRK'ün, Cumhuriyet'in 15'inci Yıl Dönümü nedeniyle Türkiye Cumhuriyeti Ordusuna mesajı:",
     "description": "... Türk vatanının ve Türklük camiasının şan ve şerefini, iç ve dış her türlü tehlikelere karşı korumaktan ibaret olan vazifeni, her an yapmaya hazır olduğuna benim ve büyük ulusumuzun tam bir inan ve itimadımız vardır...",
     "date": "1938-10-29T00:00:00Z",
@@ -3046,7 +3042,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 268,
+    "id": 269,
     "title": "ATATÜRK'ün, Türkiye Büyük Millet Meclisinin beşinci dönem dördüncü toplantı yılını açış konuşmasının Başbakan Celâl Bayar tarafından okunması:",
     "description": "... Memleketimizi her gün daha çok kuvvetlendirmek, her alanda her türlü ihtimallere karşı koyabilecek bir hâlde bulundurmak ve dünya olaylarının bütün safhalarını büyük bir uyanıklılıkla izlemek, barışsever siyasetimizin dayanacağı esasların başlangıcıdır!...",
     "date": "1938-11-01T00:00:00Z",
@@ -3058,7 +3054,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 269,
+    "id": 270,
     "title": "ATATÜRK'ün ikinci defa ağır komaya girmesi.",
     "date": "1938-11-08T00:00:00Z",
     "location": {
@@ -3069,7 +3065,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 270,
+    "id": 271,
     "title": "ATATÜRK'ün Dolmabahçe Sarayı'nda saat dokuzu beş geçe ölümü.",
     "date": "1938-11-10T00:00:00Z",
     "location": {
@@ -3080,7 +3076,7 @@
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
   },
   {
-    "id": 271,
+    "id": 272,
     "title": "ATATÜRK'ün vasiyetinin, Ankara Üçüncü Sulh Hukuk Hâkimliği tarafından açılması.",
     "date": "1938-11-28T00:00:00Z",
     "location": {
