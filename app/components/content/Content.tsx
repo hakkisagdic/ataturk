@@ -5,11 +5,26 @@ import Image from 'next/image'
 import { formatDate } from '@/app/helpers/date'
 import { useEffect, useState } from 'react'
 
+type ItemType = {
+  id: number
+  date: string
+  title: string
+  description?: string
+  images?: ImageType[]
+  source?: string
+}
+
+type ImageType = {
+  url: string
+  alt: string
+  source?: string
+}
+
 export default function Content() {
   const searchParams = useSearchParams()
-  const [modalImage, setModalImage] = useState<{ url: string; alt: string } | null>(null)
+  const [modalImage, setModalImage] = useState<ImageType | null>(null)
 
-  const selectedItem = data.find((item) => item.id === Number(searchParams.get('id')))
+  const selectedItem = data.find((item: ItemType) => item.id === Number(searchParams.get('id')))
 
   // ESC ile modal kapama
   useEffect(() => {
@@ -43,7 +58,7 @@ export default function Content() {
 
       {selectedItem?.images && selectedItem.images.length > 0 && (
         <div className={styles.images}>
-          {selectedItem.images.map((image, index) => (
+          {selectedItem.images.map((image: ImageType, index) => (
             <div
               key={index}
               className={styles.image}
@@ -51,7 +66,12 @@ export default function Content() {
               style={{ cursor: 'pointer' }}
             >
               <Image src={image.url} alt='External Image' width={2000} height={2000} />
-              <p>{image.alt}</p>
+              <p title={`Bilgi kaynağı: ${image.source}`}>
+                {image.alt}
+                <a href={image.source} target='_blank' rel='noopener noreferrer'>
+                  *
+                </a>
+              </p>
             </div>
           ))}
         </div>
@@ -71,6 +91,7 @@ export default function Content() {
             >
               ×
             </button>
+
             <Image
               src={modalImage.url}
               alt={modalImage.alt}
@@ -78,7 +99,14 @@ export default function Content() {
               height={800}
               style={{ width: '100%', height: 'auto' }}
             />
-            <p>{modalImage.alt}</p>
+            <p title={`Bilgi kaynağı: ${modalImage.source}`}>
+              {modalImage.alt}
+              {modalImage.source && (
+                <a href={modalImage.source} target='_blank' rel='noopener noreferrer'>
+                  {modalImage.source.includes('https://') ? '*' : 'Bilgi Kaynağı'}
+                </a>
+              )}
+            </p>
           </div>
         </div>
       )}

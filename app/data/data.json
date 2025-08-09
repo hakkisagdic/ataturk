@@ -10,7 +10,8 @@
     "images": [
       {
         "url": "/images/dogdugu-ev.jpg",
-        "alt": "Doğduğu ev"
+        "alt": "Doğduğu ev",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/ataturkun-ailesi"
       }
     ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -50,7 +51,8 @@
     "images": [
       {
         "url": "/images/manastir-askeri-idadisi.webp",
-        "alt": "Selanik Askerî Rüştiyesi"
+        "alt": "Selanik Askerî Rüştiyesi",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/manastir-askeri-idadisindeki-ogrenimi"
       }
     ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -66,11 +68,13 @@
     "images": [
       {
         "url": "/images/karne.gif",
-        "alt": "Öğrenim Belgesi"
+        "alt": "Öğrenim Belgesi",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/manastir-askeri-idadisindeki-ogrenimi"
       },
       {
         "url": "/images/sinav-sonuc-belgesi.jpg",
-        "alt": "Öğrenim Belgesi"
+        "alt": "Öğrenim Belgesi",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/manastir-askeri-idadisindeki-ogrenimi"
       }
     ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"
@@ -86,11 +90,13 @@
     "images": [
       {
         "url": "/images/istanbul-harp-okulu.gif",
-        "alt": "İstanbul Harp Okulu"
+        "alt": "İstanbul Harp Okulu",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/harbiyedeki-ogrenimi"
       },
       {
         "url": "/images/ataturk-arkadaslari-ile.gif",
-        "alt": "Atatürk ve arkadaşları"
+        "alt": "Atatürk ve arkadaşları",
+        "source": "https://ata.msb.gov.tr/Genel/icerik/harbiyedeki-ogrenimi"
       }
     ],
     "source": "https://ata.msb.gov.tr/Genel/icerik/ataturk-kronolojisi"

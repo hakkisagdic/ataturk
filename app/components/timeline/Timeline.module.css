@@ -116,7 +116,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(0.8);
+  gap: 0.2rem;
   position: absolute;
   bottom: 75.5%;
 }
@@ -125,33 +125,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: scale(0.8);
+  gap: 0.2rem;
   position: absolute;
   top: 75%;
 }
 
 .dot {
-  width: .2rem;
-  height: .7rem;
-  background-color: #bbb;
-  border-radius: 50%;
+  width: 0.15rem;
+  height: 0.8rem;
+  background-color: #ff0000;
   display: inline-block;
   transition: transform 0.2s, background-color 0.2s;
   transform: scale(0.3);
 }
 
 .dotActive {
-  background-color: #000;
-  transform: scale(0.5);
+  background-color: #ff0000;
+  transform: scale(0.8);
 }
 
 .active {
-    scale: 2;
-    margin-inline: 2rem;
-    color: #000;
-    font-weight: 900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
+  scale: 2;
+  margin-inline: 2rem;
+  color: #000;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
