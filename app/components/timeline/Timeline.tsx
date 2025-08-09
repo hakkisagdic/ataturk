@@ -74,7 +74,12 @@ export default function Timeline() {
   useEffect(() => {
     // Handle keyboard navigation for left and right arrows
     const handleKeyDown = (event: KeyboardEvent) => {
-      event.preventDefault()
+      const target = event.target as Element | null
+
+      if (target?.className?.toString().includes('timelineItem')) {
+        // Prevent default action for arrow keys when focused on timeline items
+        event.preventDefault()
+      }
 
       if (event.key === 'ArrowLeft') {
         onGoPrev()
