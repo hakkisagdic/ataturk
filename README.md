@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Atatürk Kronolojisi
 
-## Getting Started
+Bu proje, [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) ile oluşturulmuş bir [Next.js](https://nextjs.org) uygulamasıdır.
 
-First, run the development server:
+## Başlangıç
+
+Geliştirme sunucusunu başlatmak için aşağıdaki komutlardan birini kullanabilirsiniz:
 
 ```bash
 npm run dev
-# or
+# veya
 yarn dev
-# or
+# veya
 pnpm dev
-# or
+# veya
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sunucu başlatıldıktan sonra [http://localhost:3000](http://localhost:3000) adresini tarayıcınızda açarak uygulamayı görüntüleyebilirsiniz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Dosya Yapısı
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/page.tsx`: Ana sayfa bileşeni. Sayfa üzerinde değişiklik yapmak için bu dosyayı düzenleyebilirsiniz.
+- `public/`: Statik dosyalar (görseller, favicon vb.).
+- `styles/`: Proje genelindeki stil dosyaları.
+- `components/`: Tekrar kullanılabilir React bileşenleri.
 
-## Learn More
+## Özellikler
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 14+** ile modern web uygulaması geliştirme
+- Otomatik sayfa güncelleme (Hot Reload)
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) ile optimize edilmiş font kullanımı ([Geist](https://vercel.com/font))
+- Kolay dağıtım ve ölçeklenebilirlik
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Nasıl Katkı Sağlanır?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Bu repoyu forklayın.
+2. Yeni bir branch oluşturun (`git checkout -b ozellik/yeniozellik`).
+3. Değişikliklerinizi yapın ve commit edin (`git commit -m 'Yeni özellik eklendi'`).
+4. Branch’i pushlayın (`git push origin ozellik/yeniozellik`).
+5. Bir Pull Request açın.
 
-## Deploy on Vercel
+## Daha Fazla Bilgi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js Dokümantasyonu](https://nextjs.org/docs) — Next.js özellikleri ve API’leri hakkında bilgi edinin.
+- [Next.js Öğrenme](https://nextjs.org/learn) — Etkileşimli Next.js eğitimleri.
+- [Next.js GitHub](https://github.com/vercel/next.js) — Geri bildirim ve katkılarınızı paylaşabilirsiniz.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Lisans
+
+Bu proje MIT lisansı ile korunmaktadır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
