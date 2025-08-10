@@ -77,6 +77,28 @@ export default function Content() {
         </div>
       )}
 
+      {selectedItem?.sounds && selectedItem.sounds.length > 0 && (
+        <div className={styles.sounds}>
+          {selectedItem.sounds.map((sound, index) => (
+            <div key={index} className={styles.sound}>
+              <p title={`Bilgi kaynağı: ${sound.source}`}>
+                {sound.alt}
+                {sound.source && (
+                  <a href={sound.source} target='_blank' rel='noopener noreferrer'>
+                    {sound.source.includes('https://') ? '*' : 'Bilgi Kaynağı'}
+                  </a>
+                )}
+              </p>
+
+              <audio controls controlsList='nodownload' onContextMenu={(e) => e.preventDefault()}>
+                <source src={sound.url} type='audio/mpeg' />
+                İnternet tarayıcınız ses yürütmeyi desteklemiyor.
+              </audio>
+            </div>
+          ))}
+        </div>
+      )}
+
       {modalImage && (
         <div className={styles.modal} onClick={() => setModalImage(null)}>
           <div

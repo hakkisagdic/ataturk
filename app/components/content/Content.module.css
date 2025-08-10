@@ -137,3 +137,18 @@
     position: relative;
   }
 }
+
+.sounds {
+  pointer-events: all;
+  background-color: #fff;
+  margin-inline: auto;
+  max-width: 370px;
+  padding: 1rem;
+  margin-block: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.sounds audio {
+  width: 100%;
+}
