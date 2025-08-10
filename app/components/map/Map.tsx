@@ -29,13 +29,20 @@ function MapCenterUpdater({ location }: MapProps) {
   useEffect(() => {
     if (!map) return
 
+    // Mevcut konumu piksel cinsine çevir
+    const point = map.latLngToContainerPoint([location.lat, location.lon])
+    // Y ekseninde yukarı kaydır (ör: ekranın 1/4'ü kadar)
+    const offsetPoint = L.point(point.x, point.y - map.getSize().y / 4)
+    // Tekrar lat/lng'e çevir
+    const offsetLatLng = map.containerPointToLatLng(offsetPoint)
+
     if (prevLocation.current) {
-      map.flyTo([location.lat + 1.2, location.lon], map.getZoom(), {
+      map.flyTo(offsetLatLng, map.getZoom(), {
         animate: true,
         duration: 0.7,
       })
     } else {
-      map.setView([location.lat, location.lon], map.getZoom(), { animate: false })
+      map.setView(offsetLatLng, map.getZoom(), { animate: false })
     }
 
     prevLocation.current = location
@@ -45,8 +52,8 @@ function MapCenterUpdater({ location }: MapProps) {
 }
 
 export default function Map({ location }: MapProps) {
-  // Random zoom between 5 and 7
-  const initialZoom = Math.floor(Math.random() * (7 - 5 + 1)) + 5
+  // Random zoom between 6 and 8
+  const initialZoom = Math.floor(Math.random() * 3) + 6
 
   return (
     <div className={styles.map}>
