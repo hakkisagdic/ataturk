@@ -152,3 +152,25 @@
 .sounds audio {
   width: 100%;
 }
+
+.quote {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  font-style: italic;
+  color: #555;
+  pointer-events: all;
+}
+
+.quote p {
+  margin: 0;
+  padding: 0;
+}
+
+.quote .source {
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.9rem;
+  font-style: normal;
+}

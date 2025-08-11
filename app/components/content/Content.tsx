@@ -11,6 +11,11 @@ type ItemType = {
   title: string
   description?: string
   images?: ImageType[]
+  sounds?: { url: string; alt: string; source?: string }[]
+  quote?: {
+    text: string
+    source: string
+  }
   source?: string
 }
 
@@ -53,6 +58,17 @@ export default function Content() {
 
         {selectedItem?.description && (
           <p className={styles.description}>{selectedItem.description}</p>
+        )}
+
+        {selectedItem?.quote && (
+          <div className={styles.quote}>
+            <p>"{selectedItem.quote.text}"</p>
+            <div className={styles.source} title={`Alıntı kaynağı: ${selectedItem.quote.source}`}>
+              <a href={selectedItem.quote.source} target='_blank' rel='noopener noreferrer'>
+                Kaynak
+              </a>
+            </div>
+          </div>
         )}
       </div>
 
