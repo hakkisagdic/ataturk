@@ -30,11 +30,7 @@ export default function About() {
         <h4>Katkıda bulunun</h4>
         <p>
           Projenin kaynak kodları ve verileri herkese açıktır. Siz de Atatürk&#39;ün mirasını
-          yaşatmaya yardımcı olabilirsiniz.
-        </p>
-
-        <p>
-          Projeye katkıda bulunmak için{' '}
+          yaşatmaya yardımcı olabilirsiniz. Katkıda bulunmak için{' '}
           <a href='https://github.com/gayret/ataturk/blob/main/app/data/data.json' target='_blank'>
             GitHub&#39;a
           </a>{' '}
