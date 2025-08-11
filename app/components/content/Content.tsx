@@ -62,7 +62,7 @@ export default function Content() {
 
         {selectedItem?.quote && (
           <div className={styles.quote}>
-            <p>"{selectedItem.quote.text}"</p>
+            <p>{`"${selectedItem.quote.text}"`}</p>
             <div className={styles.source} title={`Alıntı kaynağı: ${selectedItem.quote.source}`}>
               <a href={selectedItem.quote.source} target='_blank' rel='noopener noreferrer'>
                 Kaynak
