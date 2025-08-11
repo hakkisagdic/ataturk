@@ -45,7 +45,7 @@ export default function About() {
 
         <h4>Teşekkür</h4>
         <small>
-          Projeyi hayata geçirmem için yardımcı olan biricik karım İrem Çiftler Gayret &#39;e
+          Projeyi hayata geçirmem için yardımcı olan biricik karım İrem Çiftler Gayret&apos;e
           teşekkür ederim.
         </small>
       </div>
