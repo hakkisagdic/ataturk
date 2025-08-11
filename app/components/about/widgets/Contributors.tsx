@@ -25,7 +25,7 @@ export default function Contributors() {
         }))
 
         setContributors(
-          contributors.filter((contributor: Contributor) => contributor.type !== 'BOT')
+          contributors.filter((contributor: Contributor) => contributor.type !== 'Bot')
         )
       })
       .catch((error) => console.error('Error fetching contributors:', error))
