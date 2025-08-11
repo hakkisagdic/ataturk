@@ -26,7 +26,7 @@ export default function Content() {
 
   const selectedItem = data.find((item: ItemType) => item.id === Number(searchParams.get('id')))
 
-  // ESC ile modal kapama
+  // ESC ile modal kapatma
   useEffect(() => {
     if (!modalImage) return
     const handleKeyDown = (e: KeyboardEvent) => {
