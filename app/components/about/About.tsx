@@ -7,43 +7,36 @@ export default function About() {
       <div className={styles.description}>
         <h1 className={styles.title}>Çocuklara ve Türk Gençliğine!</h1>
         <p>
-          Ulu Önder Gazi Mustafa Kemal ATATÜRK, Türk milletinin bağımsızlık mücadelesine önderlik
-          ederek, Türkiye Cumhuriyeti&#39;nin temellerini atan ve modern Türkiye&#39;nin kurucusu
-          olan büyük bir liderdir. Onun hayatı; cesaret, vizyon ve özveriyle doludur. Bu proje,
-          Atatürk&#39;ün hayatını kronolojik olarak inceleyerek, genç nesillere ilham vermeyi
+          Ulu Önder Gazi Mustafa Kemal Atatürk, Türk milletinin bağımsızlık mücadelesine önderlik
+          ederek modern Türkiye’nin kurucusu olmuştur. Hayatı cesaret, vizyon ve özveriyle doludur.
+          Bu proje, Atatürk’ün yaşamını kronolojik olarak inceleyerek gençlere ilham vermeyi
           amaçlamaktadır.
         </p>
-
         <h4>Kullanımı</h4>
         <p>
-          Sayfanın aşağısında bulunan zaman çizelgesinde Atatürk&#39;ün hayatındaki önemli olayları
-          görebilirsiniz. Her bir tarihin üzerine tıklayarak, o tarihteki olaylar hakkında bilgi
-          edinebilirsiniz. Ayrıca, harita üzerinden ilgili olayların geliştiği coğrafyayı
-          görebilirsiniz.
-        </p>
-
-        <p>
-          Tarihler arasında geçiş yapmak için klavyenizden (sol ve sağ) yön tuşlarını da
-          kullanabilirsiniz.
+          Sayfanın altındaki zaman çizelgesinde Atatürk&apos;ün hayatındaki önemli olayları
+          görebilirsiniz. Tarihlere tıklayarak olay detaylarını ve haritada ilgili bölgeleri
+          inceleyebilirsiniz. Klavyenizdeki yön tuşlarıyla tarihler arasında geçiş yapabilirsiniz.
         </p>
 
         <h4>Katkıda bulunun</h4>
         <p>
-          Projenin kaynak kodları ve verileri herkese açıktır. Siz de Atatürk&#39;ün mirasını
-          yaşatmaya yardımcı olabilirsiniz. Katkıda bulunmak için{' '}
+          Projenin kaynak kodları ve verileri herkese açıktır. Katkıda bulunmak için{' '}
           <a href='https://github.com/gayret/ataturk/blob/main/app/data/data.json' target='_blank'>
             GitHub&#39;a
           </a>{' '}
           göz atabilirsiniz.
         </p>
-
         <Contributors />
-
         <h4>Teşekkür</h4>
         <small>
           Projeyi hayata geçirmem için yardımcı olan biricik karım İrem Çiftler Gayret&apos;e
           teşekkür ederim.
         </small>
+        <br />
+        <a href='https://www.buymeacoffee.com/safagayret'>
+          <img src='https://img.buymeacoffee.com/button-api/?text=Bağış yap&emoji=🤝&slug=safagayret&button_colour=e30a17&font_colour=ffffff&font_family=Arial&outline_colour=ffffff&coffee_colour=FFDD00' />
+        </a>
       </div>
     </div>
   )
