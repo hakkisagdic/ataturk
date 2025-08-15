@@ -1,5 +1,6 @@
 import styles from './About.module.css'
 import Contributors from './widgets/Contributors'
+import DonateButton from './widgets/donate-button/DonateButton'
 
 export default function About() {
   return (
@@ -39,11 +40,7 @@ export default function About() {
           teşekkür ederim.
         </small>
 
-        <br />
-
-        <a href='https://www.buymeacoffee.com/safagayret'>
-          <img src='https://img.buymeacoffee.com/button-api/?text=Bağış yap&emoji=🤝&slug=safagayret&button_colour=e30a17&font_colour=ffffff&font_family=Arial&outline_colour=ffffff&coffee_colour=FFDD00' />
-        </a>
+        <DonateButton />
       </div>
     </div>
   )
