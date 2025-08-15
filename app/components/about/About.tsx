@@ -26,7 +26,7 @@ export default function About() {
         <h4>Katkıda bulunun</h4>
         <p>
           Projenin kaynak kodları ve verileri herkese açıktır. Katkıda bulunmak için{' '}
-          <a href='https://github.com/gayret/ataturk/blob/main/app/data/data.json' target='_blank'>
+          <a href='https://github.com/gayret/ataturk' target='_blank'>
             GitHub&#39;a
           </a>{' '}
           göz atabilirsiniz.
