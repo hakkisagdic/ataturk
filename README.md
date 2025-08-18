@@ -1,5 +1,10 @@
 # Atatürk Kronolojisi
 
+## Projenin hikayesi
+<img width="508" height="854" alt="image" src="https://github.com/user-attachments/assets/1671330e-3898-4836-8f7b-131b824fc6a1" />
+
+## Teknik açıklama
+
 Bu proje, [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) ile oluşturulmuş bir [Next.js](https://nextjs.org) uygulamasıdır.
 
 ## Başlangıç
